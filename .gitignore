@@ -149,3 +149,7 @@ dmypy.json
 __scratch/
 scratch/
 cache/
+*.json
+*.jpg
+*.p
+*.jsonl

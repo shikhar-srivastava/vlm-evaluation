@@ -50,7 +50,7 @@ where `dataset_family` can be selected from `[vqa-v2, gqa, vizwiz, text-vqa, ref
 
 (2) Evaluate LLaVa 1.5 (7B) and Prism 7B models on Text VQA slim dataset:
 
-`python scripts/evaluate.py --model_family llava-v15 --model_id llava-v1.5-7b --model_dir liuhaotian/llava-v1.5-7b --dataset.type text-vqa-slim --dataset.root_dir /home/ubuntu/datasets/vlm-evaluation`
+`python scripts/evaluate.py --model_family llava-v15 --model_id reproduction-llava-v15+7b --model_dir /scratch/ssrivas9/prismatic-vlms/runs/reproduction-llava-v15+7b+stage-align+x7 --dataset.type text-vqa-slim --dataset.root_dir /scratch/ssrivas9/vlm-evaluation/datasets`
 
 For prismatic models you can either pass just a `model_id`:
 

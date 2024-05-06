@@ -40,7 +40,7 @@ class DatasetPreparationConfig:
 
     # Path Parameters
     root_dir: Path = Path(                                      # Path to root directory for storing datasets
-        "/home/ubuntu/datasets/vlm-evaluation"
+        "/scratch/ssrivas9/vlm-evaluation/datasets/vlm-evaluation"
     )
 
     # HF Hub Credentials (for LLaMa-2)

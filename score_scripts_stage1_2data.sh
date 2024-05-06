@@ -1,0 +1,5 @@
+python scripts/score.py --model_id one-stage+7b --dataset.type text-vqa-slim --dataset.root_dir /scratch/ssrivas9/vlm-evaluation/datasets/vlm-evaluation/ --results_dir /scratch/ssrivas9/prismatic-vlms/evaluations/stage1_2data_results
+python scripts/score.py --model_id one-stage+7b --dataset.type tally-qa-slim --dataset.root_dir /scratch/ssrivas9/vlm-evaluation/datasets/vlm-evaluation/ --results_dir /scratch/ssrivas9/prismatic-vlms/evaluations/stage1_2data_results
+python scripts/score.py --model_id one-stage+7b --dataset.type gqa-slim --dataset.root_dir /scratch/ssrivas9/vlm-evaluation/datasets/vlm-evaluation/ --results_dir /scratch/ssrivas9/prismatic-vlms/evaluations/stage1_2data_results
+python scripts/score.py --model_id one-stage+7b --dataset.type refcoco-slim --dataset.root_dir /scratch/ssrivas9/vlm-evaluation/datasets/vlm-evaluation/ --results_dir /scratch/ssrivas9/prismatic-vlms/evaluations/stage1_2data_results
+python scripts/score.py --model_id one-stage+7b --dataset.type vqa-v2-slim --dataset.root_dir /scratch/ssrivas9/vlm-evaluation/datasets/vlm-evaluation/ --results_dir /scratch/ssrivas9/prismatic-vlms/evaluations/stage1_2data_results

@@ -58,7 +58,7 @@ class EvaluationConfig:
 
     # Artifact Parameters
     results_dir: Path = Path(                       # Path to results directory (writing predicted output, metrics)
-        "/home/ubuntu/prismatic-vlms/results"
+        "/scratch/ssrivas9/prismatic-vlms/results"
     )
 
     # HF Hub Credentials (for LLaMa-2)
@@ -104,7 +104,6 @@ def evaluate(cfg: EvaluationConfig) -> None:
     # Run Evaluation
     overwatch.info("Starting (Distributed) Evaluation Loop")
     task_runner.evaluate(vlm, cfg.device_batch_size, cfg.num_workers)
-
 
 if __name__ == "__main__":
     evaluate()
