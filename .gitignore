@@ -155,3 +155,7 @@ cache/
 *.jsonl
 datasets/*
 download/*
+eval_cl.sh
+eval_script.sh
+eval_cl.sh
+eval_script.sh
