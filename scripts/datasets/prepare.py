@@ -21,7 +21,7 @@ overwatch = initialize_overwatch(__name__)
 @dataclass
 class DatasetPreparationConfig:
     # fmt: off
-    dataset_family: str = "tally-qa"                            # Dataset family to prepare
+    dataset_family: str = "ai2d"                                # Dataset family to prepare
 
     # Processing Parameters
     create_slim_dataset: bool = True                            # Whether to create "slim" (minified) dataset(s)
@@ -44,7 +44,7 @@ class DatasetPreparationConfig:
     )
 
     # HF Hub Credentials (for LLaMa-2)
-    hf_token: Union[str, Path] = Path(".hf_token")              # Env Variable or Path to HF Token (for Winoground)
+    hf_token: Union[str, Path] = Path(".hf_token")              # Env Variable or Path to HF Token
 
     # Randomness
     seed: int = 21                                              # Random Seed (for slim datasets, augmentations)
