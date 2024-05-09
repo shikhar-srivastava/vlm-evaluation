@@ -93,6 +93,7 @@ def score(cfg: ScoreConfig) -> None:
 
         return
 
+    overwatch.info(f"Checking in folder `{task_results_dir}` for results...")
     # Merge per-Rank Results & Assert on Expected Length
     full_results = {}
     for rank_json in task_results_dir.glob("results+rank*.json"):

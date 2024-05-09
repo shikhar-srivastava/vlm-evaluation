@@ -30,7 +30,7 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
 dependencies = [
-    "accelerate",
+    "accelerate>=0.28.0",
     "ascii_magic",
     "draccus @ git+https://github.com/dlwh/draccus",
     "gradio==3.35.2",
@@ -39,9 +39,8 @@ dependencies = [
     "jsonlines",
     "jinja2==3.0.3",
     "llava @ git+https://github.com/suraj-nair-tri/LLaVA",
-    "mosaicml-streaming",
     "openai",
-    "prismatic @ git+https://github.com/TRI-ML/prismatic-vlms",
+    "prismatic @ file:///localdisk/ssrivas9/prismatic-vlms",
     "pycocotools",
     "rich",
     "scikit-image",
