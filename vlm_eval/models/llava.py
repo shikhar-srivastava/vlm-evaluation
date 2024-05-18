@@ -14,10 +14,10 @@ import torch
 import torch.nn as nn
 import torchvision.transforms.functional as F
 from accelerate import PartialState
-from llava.constants import DEFAULT_IMAGE_TOKEN, IMAGE_TOKEN_INDEX
-from llava.conversation import conv_templates
-from llava.mm_utils import tokenizer_image_token
-from llava.model import LlavaLlamaForCausalLM
+from vlm_eval.llava_dependency.constants import DEFAULT_IMAGE_TOKEN, IMAGE_TOKEN_INDEX
+from vlm_eval.llava_dependency.conversation import conv_templates
+from vlm_eval.llava_dependency.mm_utils import tokenizer_image_token
+from vlm_eval.llava_dependency.model import LlavaLlamaForCausalLM
 from PIL.Image import Image
 from transformers import AutoTokenizer, CLIPImageProcessor
 

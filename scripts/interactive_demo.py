@@ -25,9 +25,9 @@ import uvicorn
 from accelerate.utils import set_seed
 from fastapi import BackgroundTasks, FastAPI, Request
 from fastapi.responses import StreamingResponse
-from llava.constants import WORKER_HEART_BEAT_INTERVAL
-from llava.mm_utils import load_image_from_base64
-from llava.utils import server_error_msg
+from vlm_eval.llava_dependency.constants import WORKER_HEART_BEAT_INTERVAL
+from vlm_eval.llava_dependency.mm_utils import load_image_from_base64
+from vlm_eval.llava_dependency.utils import server_error_msg
 from torchvision.transforms import Compose
 
 from vlm_eval.models import load_vlm

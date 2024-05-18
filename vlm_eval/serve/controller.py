@@ -19,8 +19,8 @@ import requests
 import uvicorn
 from fastapi import FastAPI, Request
 from fastapi.responses import StreamingResponse
-from llava.constants import CONTROLLER_HEART_BEAT_EXPIRATION
-from llava.utils import build_logger, server_error_msg
+from vlm_eval.llava_dependency.constants import CONTROLLER_HEART_BEAT_EXPIRATION
+from vlm_eval.llava_dependency.utils import build_logger, server_error_msg
 
 logger = build_logger("controller", "controller.log")
 
