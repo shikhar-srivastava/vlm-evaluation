@@ -40,7 +40,7 @@ dependencies = [
     "jinja2==3.0.3",
     "llava @ git+https://github.com/suraj-nair-tri/LLaVA",
     "openai",
-    "prismatic @ file:///localdisk/ssrivas9/prismatic-vlms",
+    "prismatic @ file:///scratch/ssrivas9/prismatic-vlms",
     "pycocotools",
     "rich",
     "scikit-image",
@@ -52,7 +52,7 @@ dependencies = [
     "webdataset",
     "pymongo",
     "spacy==3.7.3",
-    "bitsandbytes==0.43.1"
+    "bitsandbytes",
 ]
 
 [project.optional-dependencies]
