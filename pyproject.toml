@@ -38,7 +38,6 @@ dependencies = [
     "pydantic==1.10.14",
     "jsonlines",
     "jinja2==3.0.3",
-    "llava @ git+https://github.com/suraj-nair-tri/LLaVA",
     "openai",
     "prismatic @ file:///localdisk/ssrivas9/prismatic-vlms",
     "pycocotools",
@@ -48,7 +47,7 @@ dependencies = [
     "torch>=2.1.0",
     "torchvision",
     "torchaudio",
-    "transformers==4.34.1", ## Pinned to avoid namespace conflict with LLaVa models
+    "transformers==4.35.2", ## Pinned to avoid namespace conflict with LLaVa models
     "webdataset",
     "pymongo",
     "spacy==3.7.3",

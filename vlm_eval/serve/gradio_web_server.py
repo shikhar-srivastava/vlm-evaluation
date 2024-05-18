@@ -17,9 +17,9 @@ import time
 
 import gradio as gr
 import requests
-from llava.constants import LOGDIR
-from llava.conversation import conv_templates, default_conversation
-from llava.utils import build_logger, moderation_msg, server_error_msg, violates_moderation
+from vlm_eval.llava_dependency.constants import LOGDIR
+from vlm_eval.llava_dependency.conversation import conv_templates, default_conversation
+from vlm_eval.llava_dependency.utils import build_logger, moderation_msg, server_error_msg, violates_moderation
 
 from vlm_eval.serve import INTERACTION_MODES_MAP, MODEL_ID_TO_NAME
 
