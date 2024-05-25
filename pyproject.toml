@@ -39,7 +39,7 @@ dependencies = [
     "jsonlines",
     "jinja2==3.0.3",
     "openai",
-    "prismatic @ file:///scratch/ssrivas9/prismatic-vlms",
+    "prismatic @ file:///localdisk/ssrivas9/prismatic-vlms",
     "pycocotools",
     "rich",
     "scikit-image",
