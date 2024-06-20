@@ -243,7 +243,7 @@ class TextVQAAccuracyEvaluator:
 
         return unique_answer_scores
 
-    def eval_pred_list(self, pred_list):
+    def eval_pred_list(self, pred_list, task_results_dir = None, type_vqa = None):
         pred_scores = []
         i = 0
         for entry in pred_list:
@@ -253,12 +253,12 @@ class TextVQAAccuracyEvaluator:
             pred_scores.append(score)
             i+=1
             raw_scores[i] = score
-        from datetime import datetime
+        import os
         import json
-        filename = f"textvqa-{datetime.now().strftime('%Y-%m-%d-%H-%M-%S-%f')[:-3]}.json"
-        # Write the JSON data to the file
-        with open(filename, "w") as f:
+        with open(os.path.join(task_results_dir,f'raw-textvqa-{type_vqa}.json'), "w") as f:
             json.dump(raw_scores, f)
+
+
         accuracy = sum(pred_scores) / len(pred_scores)
         return accuracy
 

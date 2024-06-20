@@ -292,7 +292,7 @@ class GQAScorer:
 
         # Run Official Evaluation Script
         output = subprocess.run(
-            f"python vlm_eval/util/evaluation/gqa/eval.py --tier {self.split} --questions {qfile} --predictions {pfile}",
+            f"python vlm_eval/util/evaluation/gqa/eval.py --tier {self.split} --questions {qfile} --predictions {pfile} --task_results_dir {self.task_results_dir}",
             capture_output=True,
             check=True,
             shell=True,

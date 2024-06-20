@@ -306,7 +306,7 @@ class VQAv2Scorer:
     def score(self, model_id: str) -> Dict[str, float]:
         """Call wrapped functions in `vlm_eval.util.evaluation.vqav2.eval`; returns accuracy/metrics."""
         metrics = run_vqa_evaluation(
-            self.questions_file, self.annotations_file, self.task_results_dir / "vqa-v2-formatted-predictions.json"
+            self.questions_file, self.annotations_file, self.task_results_dir / "vqa-v2-formatted-predictions.json", self.task_results_dir 
         )
 
         overwatch.info(

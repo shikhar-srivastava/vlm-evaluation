@@ -87,6 +87,8 @@ parser.add_argument("--tier", default="val", type=str, help="Tier, e.g. train, v
 parser.add_argument("--questions", default="{tier}_all_questions.json", type=str, help="Questions file name format.")
 # parser.add_argument('--choices', default="{tier}_choices.json", type=str, help="Choices file name format.")
 parser.add_argument("--predictions", default="{tier}_predictions.json", type=str, help="Answers file name format.")
+
+parser.add_argument('--task_results_dir', default=None, type=str, help="Task results directory.")
 # parser.add_argument('--attentions', default="{tier}_attentions.json", type=str, help="Attentions file name format.")
 # parser.add_argument('--consistency', action="store_true",
 #                     help="True to compute consistency score (Must provide all answers for val_all_questions.json).")
@@ -448,8 +450,8 @@ for qid, question in tqdm(questions.items()):
         # Compute consistency (for entailed questions)
         # updateConsistency(qid, question, questions)
 # Save raw scores at raw_scores.json. Use datetime to append to the file name to avoid overwriting.
-from datetime import datetime
-with open(f"gqa-{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}.json", "w") as f:
+import os
+with open(f"{os.path.join(args.task_results_dir,'raw-gqa.json')}", "w") as f:
     json.dump(raw_scores, f)
 
 # Compute distribution score

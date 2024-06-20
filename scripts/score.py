@@ -52,6 +52,7 @@ class ScoreConfig:
     results_dir: Path = Path(                       # Path to results directory (writing predicted output, metrics)
         "results"
     )
+    score_anyway: bool = False                       # Score even if metrics already exist
 
     # fmt: on
 
@@ -63,7 +64,7 @@ def score(cfg: ScoreConfig) -> None:
     # Short-Circuit (if results/metrics already exist)
     dataset_family, dataset_id = cfg.dataset.dataset_family, cfg.dataset.dataset_id
     task_results_dir = cfg.results_dir / cfg.dataset.dataset_family / cfg.dataset.dataset_id / cfg.model_id
-    if (metrics_json := task_results_dir / "metrics.json").exists():
+    if ((metrics_json := task_results_dir / "metrics.json").exists()) and (not cfg.score_anyway):
         overwatch.info(f"Metrics JSON already exists at `{metrics_json}` =>> Exiting!")
         with open(metrics_json, "r") as f:
             metrics = json.load(f)

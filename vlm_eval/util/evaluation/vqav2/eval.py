@@ -15,12 +15,12 @@ from tqdm import tqdm
 # === Core Function for Running the Official VQAv2 Evaluation ===
 
 
-def run_vqa_evaluation(questions_json: Path, annotations_json: Path, results_json: Path) -> Dict[str, float]:
+def run_vqa_evaluation(questions_json: Path, annotations_json: Path, results_json: Path, task_results_dir: Path = None) -> Dict[str, float]:
     vqa_index = VQAIndex(questions_json, annotations_json)
     vqa_result = vqa_index.load_result_file(result_file=results_json, question_file=questions_json)
 
     # Create VQA Evaluation Runner from both Index
-    vqa_scorer = VQAEvaluator(vqa_index, vqa_result)
+    vqa_scorer = VQAEvaluator(vqa_index, vqa_result, task_results_dir)
     vqa_scorer.evaluate()
 
     # Create Metrics Dictionary
@@ -402,7 +402,8 @@ raw_scores = {}
 # This code is based on the code written by Tsung-Yi Lin for MSCOCO Python API available at the following link:
 # (https://github.com/tylin/coco-caption/blob/master/pycocoevalcap/eval.py).
 class VQAEvaluator:
-    def __init__(self, gt_vqa_index: Optional[VQAIndex] = None, result_vqa_index: Optional[VQAIndex] = None) -> None:
+    def __init__(self, gt_vqa_index: Optional[VQAIndex] = None, result_vqa_index: Optional[VQAIndex] = None, 
+                task_results_dir: Optional[Path] = None) -> None:
         """
         Evaluation helper class for taking two pre-computed VQA Indices, and returning stratified results (accuracy,
         accuracy per question type, etc.).
@@ -411,6 +412,7 @@ class VQAEvaluator:
         :param result_vqa_index: Result VQA Index instance, built from the predicted answers/annotations.
         """
         self.gt_vqa_index, self.result_vqa_index = gt_vqa_index, result_vqa_index
+        self.task_results_dir = task_results_dir
         self.eval_qa, self.eval_question_type, self.eval_answer_type = {}, {}, {}
         self.accuracy = {}
 
@@ -452,8 +454,8 @@ class VQAEvaluator:
             self.eval_qa[qid] = gt_accuracy
             self.eval_question_type.setdefault(question_type, {})[qid] = gt_accuracy
             self.eval_answer_type.setdefault(answer_type, {})[qid] = gt_accuracy
-        from datetime import datetime
-        with open(f"vqav2-{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}.json", "w") as f:
+        import os
+        with open(f"{os.path.join(self.task_results_dir,'raw-vqav2.json')}", "w") as f:
             json.dump(raw_scores, f)
         # Finalize Accuracies
         self.finalize_accuracies()

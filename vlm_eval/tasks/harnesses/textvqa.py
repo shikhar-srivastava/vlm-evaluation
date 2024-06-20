@@ -317,10 +317,10 @@ class TextVQAScorer:
 
         with open(self.task_results_dir / "text-vqa-formatted-predictions-without-ocr.json", "r") as f:
             pred_list_without_ocr = json.load(f)
-
+    
         evaluator_ocr, evaluator_no_ocr = TextVQAAccuracyEvaluator(), TextVQAAccuracyEvaluator()
-        accuracy_ocr = evaluator_ocr.eval_pred_list(pred_list_with_ocr)
-        accuracy_no_ocr = evaluator_no_ocr.eval_pred_list(pred_list_without_ocr)
+        accuracy_ocr = evaluator_ocr.eval_pred_list(pred_list_with_ocr, self.task_results_dir, 'ocr')
+        accuracy_no_ocr = evaluator_no_ocr.eval_pred_list(pred_list_without_ocr, self.task_results_dir, 'pure')
 
         metrics = {"accuracy__TextVQA-OCR": accuracy_ocr, "accuracy__TextVQA-Pure": accuracy_no_ocr}
 

@@ -348,6 +348,7 @@ class RefCOCOScorer:
         }
         for example_id, example in tqdm(self.full_result_sent_bbox_pairs.items(), "=> Scoring Box Predictions:"):
             dataset = self.annotations[example_id]["refer_dataset"]
+            #print(dataset)
             pred_bbox_xyxy = parse_bbox(example["model_output"])
             if pred_bbox_xyxy is None:
                 ref_scores[dataset]["invalid"] += 1
@@ -359,13 +360,15 @@ class RefCOCOScorer:
             if iou >= 0.5:
                 ref_scores[dataset]["correct"] += 1
                 ref_scores[dataset]["total"] += 1
-                raw_scores[example_id] = 1
+                if dataset == 'RefCOCO':
+                    raw_scores[example_id] = 1
             else:
                 ref_scores[dataset]["incorrect"] += 1
                 ref_scores[dataset]["total"] += 1
-                raw_scores[example_id] = 0
-        from datetime import datetime
-        with open(f"refcoco-{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}.json", "w") as f:
+                if dataset == 'RefCOCO':
+                    raw_scores[example_id] = 0
+        import os
+        with open(f"{os.path.join(self.task_results_dir,'raw-refcoco.json')}", "w") as f:
             json.dump(raw_scores, f)
         # Create Metrics Dictionary & Log
         accuracies = {f"accuracy__{k}": v["correct"] / v["total"] for k, v in ref_scores.items()}
