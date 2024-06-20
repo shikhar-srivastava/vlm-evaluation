@@ -400,6 +400,8 @@ def chiSquare(goldDist, predictedDist):
 ##### Main score computation
 ##########################################################################################
 
+raw_scores = {}
+
 # Loop over the questions and compute mterics
 for qid, question in tqdm(questions.items()):
     gold = question["answer"]
@@ -407,6 +409,7 @@ for qid, question in tqdm(questions.items()):
 
     correct = predicted == gold
     score = toScore(correct)
+    raw_scores[qid] = score
 
     wordsNum = getWordsNum(question)
     stepsNum = getStepsNum(question)
@@ -444,6 +447,10 @@ for qid, question in tqdm(questions.items()):
 
         # Compute consistency (for entailed questions)
         # updateConsistency(qid, question, questions)
+# Save raw scores at raw_scores.json. Use datetime to append to the file name to avoid overwriting.
+from datetime import datetime
+with open(f"gqa-{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}.json", "w") as f:
+    json.dump(raw_scores, f)
 
 # Compute distribution score
 scores["distribution"] = chiSquare(dist["gold"], dist["predicted"]) / 100

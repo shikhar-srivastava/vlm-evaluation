@@ -320,6 +320,7 @@ def compute_iou(pred_bbox: List[float], gt_bbox: List[float]) -> float:
     # Return IOU
     return intersection_area / union_area
 
+raw_scores = {}
 
 class RefCOCOScorer:
     def __init__(
@@ -358,10 +359,14 @@ class RefCOCOScorer:
             if iou >= 0.5:
                 ref_scores[dataset]["correct"] += 1
                 ref_scores[dataset]["total"] += 1
+                raw_scores[example_id] = 1
             else:
                 ref_scores[dataset]["incorrect"] += 1
                 ref_scores[dataset]["total"] += 1
-
+                raw_scores[example_id] = 0
+        from datetime import datetime
+        with open(f"refcoco-{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}.json", "w") as f:
+            json.dump(raw_scores, f)
         # Create Metrics Dictionary & Log
         accuracies = {f"accuracy__{k}": v["correct"] / v["total"] for k, v in ref_scores.items()}
         overwatch.info(

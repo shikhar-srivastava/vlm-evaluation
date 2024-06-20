@@ -397,6 +397,7 @@ class VQAIndex:
 
         return result_index
 
+raw_scores = {}
 
 # This code is based on the code written by Tsung-Yi Lin for MSCOCO Python API available at the following link:
 # (https://github.com/tylin/coco-caption/blob/master/pycocoevalcap/eval.py).
@@ -446,12 +447,14 @@ class VQAEvaluator:
             # Handle Accuracies per Type
             question_type, answer_type = gt_qid2ann[qid]["question_type"], gt_qid2ann[qid]["answer_type"]
             gt_accuracy = sum(gt_accuracies) / len(gt_accuracies)
-
+            raw_scores[qid] = gt_accuracy
             # Add to Trackers
             self.eval_qa[qid] = gt_accuracy
             self.eval_question_type.setdefault(question_type, {})[qid] = gt_accuracy
             self.eval_answer_type.setdefault(answer_type, {})[qid] = gt_accuracy
-
+        from datetime import datetime
+        with open(f"vqav2-{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}.json", "w") as f:
+            json.dump(raw_scores, f)
         # Finalize Accuracies
         self.finalize_accuracies()
 
