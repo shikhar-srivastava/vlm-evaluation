@@ -27,12 +27,14 @@ class PrismaticVLM(VLM):
         ocr: bool = False,
         max_length: int = 128,
         temperature: float = 1.0,
+        device = 'cuda',
         **_: str,
     ) -> None:
         self.model_family, self.model_id, self.run_dir = model_family, model_id, run_dir
         self.dtype = {"fp32": torch.float32, "fp16": torch.float16, "bf16": torch.bfloat16}[load_precision]
         self.hf_token = hf_token
         self.ocr = ocr
+        self.spec_device = device
 
         # Get Distributed State
         self.distributed_state = PartialState()
@@ -58,8 +60,8 @@ class PrismaticVLM(VLM):
             raise ValueError("Model Dir and ID cannot both be None")
 
         # Get Fully Initialized VLM Instance (+ handle `load_precision`)
-        vlm = load(load_from, hf_token=self.hf_token)
-        vlm.to(self.distributed_state.device, dtype=self.dtype)
+        vlm = load(load_from, hf_token=self.hf_token, device = "cuda" if self.spec_device is not None else self.spec_device)
+        vlm.to(self.distributed_state.device if self.spec_device is None else self.spec_device, dtype=self.dtype)
 
         print(f"loaded prismatic {self.model_id}")
 

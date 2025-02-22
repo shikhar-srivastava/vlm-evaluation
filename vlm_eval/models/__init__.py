@@ -20,6 +20,7 @@ def load_vlm(
     load_precision: str = "bf16",
     max_length=128,
     temperature=1.0,
+    device = None
 ) -> VLM:
     assert model_family in FAMILY2INITIALIZER, f"Model family `{model_family}` not supported!"
     return FAMILY2INITIALIZER[model_family](
@@ -31,4 +32,5 @@ def load_vlm(
         max_length=max_length,
         temperature=temperature,
         ocr=ocr,
+        device = device,
     )
