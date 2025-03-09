@@ -60,6 +60,8 @@ class PrismaticVLM(VLM):
             raise ValueError("Model Dir and ID cannot both be None")
 
         # Get Fully Initialized VLM Instance (+ handle `load_precision`)
+        
+    
         vlm = load(load_from, hf_token=self.hf_token, device = "cuda" if self.spec_device is not None else self.spec_device)
         vlm.to(self.distributed_state.device if self.spec_device is None else self.spec_device, dtype=self.dtype)
 

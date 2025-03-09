@@ -40,7 +40,7 @@ dependencies = [
     "jinja2==3.0.3",
     "llava @ git+https://github.com/suraj-nair-tri/LLaVA",
     "openai",
-    "prismatic @ file:///localdisk/ssrivas9/prismatic-vlms",
+    "prismatic @ file:///home/aac/ssrivas9/prismatic-vlms",
     "pycocotools",
     "rich",
     "scikit-image",
