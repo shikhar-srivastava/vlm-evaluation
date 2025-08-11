@@ -60,7 +60,7 @@ class EvaluationConfig:
 
     # Artifact Parameters
     results_dir: Path = Path(                       # Path to results directory (writing predicted output, metrics)
-        "/scratch/ssrivas9/prismatic-vlms/results"
+        "/localdisk/ssrivas9/prismatic-vlms/results"
     )
 
     # HF Hub Credentials (for LLaMa-2)
