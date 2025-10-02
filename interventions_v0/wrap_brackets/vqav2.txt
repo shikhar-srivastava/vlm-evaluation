@@ -1,0 +1,1005 @@
+Intervention: wrap_brackets
+Dataset: vqav2
+Total examples: 100
+================================================================================
+
+Example 1 (ID: 422700016):
+  Entities modified (2): boy, What
+  Question A: What is the boy listening to?
+  Question B: [What] is the [boy] listening to?
+  Ground Truth: parents
+  Prediction A: Baby (✗)
+  Prediction B: Woman (✗)
+  Image: N/A
+----------------------------------------
+
+Example 2 (ID: 371999003):
+  Entities modified (2): time, What
+  Question A: What is the time?
+  Question B: [What] is the [time]?
+  Ground Truth: 12:17
+  Prediction A: 10:10 (✗)
+  Prediction B: 10:15 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 3 (ID: 78838001):
+  Entities modified (4): parents, their, players, majority
+  Question A: Did the majority of players get dropped off by their parents?
+  Question B: Did the [majority] of [players] get dropped off by [their] [parents]?
+  Ground Truth: no
+  Prediction A: No (✓)
+  Prediction B: No (✓)
+  Image: N/A
+----------------------------------------
+
+Example 4 (ID: 117535004):
+  Entities modified (1): color
+  Question A: What color is the toilet?
+  Question B: What [color] is the toilet?
+  Ground Truth: white
+  Prediction A: White (✓)
+  Prediction B: White (✓)
+  Image: N/A
+----------------------------------------
+
+Example 5 (ID: 375409001):
+  Entities modified (3): picture, road, many
+  Question A: How many road cones are in the picture?
+  Question B: How [many] [road] cones are in the [picture]?
+  Ground Truth: 0
+  Prediction A: 0 (✓)
+  Prediction B: 0 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 6 (ID: 107167002):
+  Entities modified (2): bottom, color
+  Question A: What color is the bottom of the blender?
+  Question B: What [color] is the [bottom] of the blender?
+  Ground Truth: silver
+  Prediction A: Silver (✓)
+  Prediction B: Silver (✓)
+  Image: N/A
+----------------------------------------
+
+Example 7 (ID: 489407006):
+  Entities modified (2): people, many
+  Question A: How many people are shown?
+  Question B: How [many] [people] are shown?
+  Ground Truth: 2
+  Prediction A: 2 (✓)
+  Prediction B: 2 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 8 (ID: 231732003):
+  Entities modified (2): cup, letter
+  Question A: What letter is on the cup?
+  Question B: What [letter] is on the [cup]?
+  Ground Truth: a
+  Prediction A: None (✗)
+  Prediction B: None (✗)
+  Image: N/A
+----------------------------------------
+
+Example 9 (ID: 180274003):
+  Entities modified (4): left, name, brand, What
+  Question A: What brand name is on cooler to the left?
+  Question B: [What] [brand] [name] is on cooler to the [left]?
+  Ground Truth: coca cola
+  Prediction A: Coca cola (✓)
+  Prediction B: Coca cola (✓)
+  Image: N/A
+----------------------------------------
+
+Example 10 (ID: 313762000):
+  Entities modified (1): brand
+  Question A: What brand is the wetsuit?
+  Question B: What [brand] is the wetsuit?
+  Ground Truth: nike
+  Prediction A: O'neil (✗)
+  Prediction B: Rip curl (✗)
+  Image: N/A
+----------------------------------------
+
+Example 11 (ID: 525162002):
+  Entities modified (3): River, Columbia, picture
+  Question A: Is this picture of the Columbia River gorge?
+  Question B: Is this [picture] of the [Columbia] [River] gorge?
+  Ground Truth: yes
+  Prediction A: No (✗)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 12 (ID: 474028004):
+  Entities modified (2): they, What
+  Question A: What are they playing?
+  Question B: [What] are [they] playing?
+  Ground Truth: soccer
+  Prediction A: Soccer (✓)
+  Prediction B: Soccer (✓)
+  Image: N/A
+----------------------------------------
+
+Example 13 (ID: 105668016):
+  Entities modified (5): hand, left, her, girl, What
+  Question A: What is the girl holding in her left hand?
+  Question B: [What] is the [girl] holding in [her] [left] [hand]?
+  Ground Truth: wii remote
+  Prediction A: Wii remote (✓)
+  Prediction B: Wii controller (✗)
+  Image: N/A
+----------------------------------------
+
+Example 14 (ID: 122987021):
+  Entities modified (2): tongue, it
+  Question A: Does the giraffe have it's tongue out?
+  Question B: Does the giraffe have [it]'s [tongue] out?
+  Ground Truth: no
+  Prediction A: No (✓)
+  Prediction B: No (✓)
+  Image: N/A
+----------------------------------------
+
+Example 15 (ID: 122549087):
+  Entities modified (3): face, his, man
+  Question A: How many scars does the man have on his face?
+  Question B: How [man]y scars does the man have on [his] [face]?
+  Ground Truth: 1
+  Prediction A: 1 (✓)
+  Prediction B: 1 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 16 (ID: 401027000):
+  Entities modified (3): cold, glass, water
+  Question A: Is the water in the glass cold?
+  Question B: Is the [water] in the [glass] [cold]?
+  Ground Truth: no
+  Prediction A: Yes (✗)
+  Prediction B: Yes (✗)
+  Image: N/A
+----------------------------------------
+
+Example 17 (ID: 86884006):
+  Entities modified (2): this, type
+  Question A: What type of cake is this?
+  Question B: What [type] of cake is [this]?
+  Ground Truth: coconut
+  Prediction A: Coconut (✓)
+  Prediction B: Coconut (✓)
+  Image: N/A
+----------------------------------------
+
+Example 18 (ID: 153971001):
+  Entities modified (1): color
+  Question A: What color is the frisbee?
+  Question B: What [color] is the frisbee?
+  Ground Truth: blue
+  Prediction A: Blue (✓)
+  Prediction B: Blue (✓)
+  Image: N/A
+----------------------------------------
+
+Example 19 (ID: 122982008):
+  Entities modified (2): office, it
+  Question A: Is it an office?
+  Question B: Is [it] an [office]?
+  Ground Truth: yes
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 20 (ID: 269879002):
+  Entities modified (1): food
+  Question A: What toppings are on the food?
+  Question B: What toppings are on the [food]?
+  Ground Truth: veggies
+  Prediction A: Tomatoes (✗)
+  Prediction B: Tomatoes (✗)
+  Image: N/A
+----------------------------------------
+
+Example 21 (ID: 237917001):
+  Entities modified (4): cat, side, left, What
+  Question A: What is on the left side of the cat?
+  Question B: [What] is on the [left] [side] of the [cat]?
+  Ground Truth: toy
+  Prediction A: Shoe (✗)
+  Prediction B: Shoe (✗)
+  Image: N/A
+----------------------------------------
+
+Example 22 (ID: 224247004):
+  Entities modified (2): person, What
+  Question A: What is the person riding?
+  Question B: [What] is the [person] riding?
+  Ground Truth: airplane
+  Prediction A: Plane (✗)
+  Prediction B: Car (✗)
+  Image: N/A
+----------------------------------------
+
+Example 23 (ID: 366852005):
+  Entities modified (1): counter
+  Question A: Has the counter been burned?
+  Question B: Has the [counter] been burned?
+  Ground Truth: no
+  Prediction A: No (✓)
+  Prediction B: No (✓)
+  Image: N/A
+----------------------------------------
+
+Example 24 (ID: 40016001):
+  Entities modified (1): man
+  Question A: Is the man skateboarding?
+  Question B: Is the [man] skateboarding?
+  Ground Truth: no
+  Prediction A: No (✓)
+  Prediction B: No (✓)
+  Image: N/A
+----------------------------------------
+
+Example 25 (ID: 259597000):
+  Entities modified (4): hand, their, person, What
+  Question A: What is the person in the foreground holding in their hand?
+  Question B: [What] is the [person] in the foreground holding in [their] [hand]?
+  Ground Truth: phone
+  Prediction A: Camera (✗)
+  Prediction B: Camera (✗)
+  Image: N/A
+----------------------------------------
+
+Example 26 (ID: 56768000):
+  Entities modified (1): many
+  Question A: How many giraffe are near the fence?
+  Question B: How [many] giraffe are near the fence?
+  Ground Truth: 2
+  Prediction A: 2 (✓)
+  Prediction B: 2 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 27 (ID: 454404004):
+  Entities modified (1): girl
+  Question A: Is the girl riding a skateboard?
+  Question B: Is the [girl] riding a skateboard?
+  Ground Truth: no
+  Prediction A: No (✓)
+  Prediction B: No (✓)
+  Image: N/A
+----------------------------------------
+
+Example 28 (ID: 48104002):
+  Entities modified (1): picture
+  Question A: Where is this picture taken at?
+  Question B: Where is this [picture] taken at?
+  Ground Truth: india
+  Prediction A: Road (✗)
+  Prediction B: Road (✗)
+  Image: N/A
+----------------------------------------
+
+Example 29 (ID: 189828005):
+  Entities modified (3): day, present, images
+  Question A: Are the images from the present day?
+  Question B: Are the [images] from the [present] [day]?
+  Ground Truth: yes
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 30 (ID: 454314001):
+  Entities modified (3): this, bear, kind
+  Question A: What kind of bear is this?
+  Question B: What [kind] of [bear] is [this]?
+  Ground Truth: grizzly
+  Prediction A: Brown (✗)
+  Prediction B: Brown (✗)
+  Image: N/A
+----------------------------------------
+
+Example 31 (ID: 56108002):
+  Entities modified (3): you, windows, many
+  Question A: How many windows do you see?
+  Question B: How [many] [windows] do [you] see?
+  Ground Truth: 11
+  Prediction A: 3 (✗)
+  Prediction B: 3 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 32 (ID: 381463004):
+  Entities modified (1): bus
+  Question A: Where is the bus heading?
+  Question B: Where is the [bus] heading?
+  Ground Truth: north
+  Prediction A: Downtown (✗)
+  Prediction B: Downtown (✗)
+  Image: N/A
+----------------------------------------
+
+Example 33 (ID: 236023019):
+  Entities modified (2): women, many
+  Question A: How many women are shown?
+  Question B: How [many] [women] are shown?
+  Ground Truth: 4
+  Prediction A: 4 (✓)
+  Prediction B: 4 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 34 (ID: 289172016):
+  Entities modified (2): woman, type
+  Question A: What type of shirt is the woman wearing?
+  Question B: What [type] of shirt is the [woman] wearing?
+  Ground Truth: turtleneck
+  Prediction A: Sweater (✗)
+  Prediction B: Sweater (✗)
+  Image: N/A
+----------------------------------------
+
+Example 35 (ID: 113757003):
+  Entities modified (2): graph, everyone
+  Question A: Is everyone looking at the graph?
+  Question B: Is [everyone] looking at the [graph]?
+  Ground Truth: yes
+  Prediction A: No (✗)
+  Prediction B: No (✗)
+  Image: N/A
+----------------------------------------
+
+Example 36 (ID: 342142003):
+  Entities modified (3): location, correct, everything
+  Question A: Is everything in the correct location?
+  Question B: Is [everything] in the [correct] [location]?
+  Ground Truth: no
+  Prediction A: No (✓)
+  Prediction B: No (✓)
+  Image: N/A
+----------------------------------------
+
+Example 37 (ID: 278760000):
+  Entities modified (4): photo, sky, lot, there
+  Question A: Is there a lot of sky in this photo?
+  Question B: Is [there] a [lot] of [sky] in this [photo]?
+  Ground Truth: yes
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 38 (ID: 200882000):
+  Entities modified (2): clock, visible
+  Question A: Are any angels visible on the clock?
+  Question B: Are any angels [visible] on the [clock]?
+  Ground Truth: yes
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 39 (ID: 166037002):
+  Entities modified (1): cat
+  Question A: Is the cat looking up?
+  Question B: Is the [cat] looking up?
+  Ground Truth: yes
+  Prediction A: No (✗)
+  Prediction B: No (✗)
+  Image: N/A
+----------------------------------------
+
+Example 40 (ID: 174511000):
+  Entities modified (1): mouse
+  Question A: Where is the mouse?
+  Question B: Where is the [mouse]?
+  Ground Truth: on right
+  Prediction A: Desk (✗)
+  Prediction B: Desk (✗)
+  Image: N/A
+----------------------------------------
+
+Example 41 (ID: 487282002):
+  Entities modified (2): hat, she
+  Question A: Does she have a hat on?
+  Question B: Does [she] have a [hat] on?
+  Ground Truth: yes
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 42 (ID: 352027002):
+  Entities modified (1): he
+  Question A: Is he catching a frisbee?
+  Question B: Is [he] catching a frisbee?
+  Ground Truth: no
+  Prediction A: No (✓)
+  Prediction B: No (✓)
+  Image: N/A
+----------------------------------------
+
+Example 43 (ID: 431952001):
+  Entities modified (2): players, many
+  Question A: How many players?
+  Question B: How [many] [players]?
+  Ground Truth: 3
+  Prediction A: 5 (✗)
+  Prediction B: 5 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 44 (ID: 39317003):
+  Entities modified (5): kitchen, color, common, most, What
+  Question A: What is the most common color in this kitchen?
+  Question B: [What] is the [most] [common] [color] in this [kitchen]?
+  Ground Truth: brown
+  Prediction A: Brown (✓)
+  Prediction B: Brown (✓)
+  Image: N/A
+----------------------------------------
+
+Example 45 (ID: 465199002):
+  Entities modified (2): shadow, you
+  Question A: Do you see the shadow?
+  Question B: Do [you] see the [shadow]?
+  Ground Truth: yes
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 46 (ID: 303937000):
+  Entities modified (2): apple, color
+  Question A: What color sticker is on the apple?
+  Question B: What [color] sticker is on the [apple]?
+  Ground Truth: blue and white
+  Prediction A: Blue (✗)
+  Prediction B: Blue (✗)
+  Image: N/A
+----------------------------------------
+
+Example 47 (ID: 395928002):
+  Entities modified (2): bars, many
+  Question A: How many bars are on the fence?
+  Question B: How [many] [bars] are on the fence?
+  Ground Truth: 3
+  Prediction A: 10 (✗)
+  Prediction B: 10 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 48 (ID: 28671003):
+  Entities modified (2): angry, woman
+  Question A: Is the woman angry?
+  Question B: Is the [woman] [angry]?
+  Ground Truth: yes
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 49 (ID: 362563014):
+  Entities modified (2): person, type
+  Question A: What type of shoes is the person wearing?
+  Question B: What [type] of shoes is the [person] wearing?
+  Ground Truth: sneakers
+  Prediction A: Cleats (✗)
+  Prediction B: Cleats (✗)
+  Image: N/A
+----------------------------------------
+
+Example 50 (ID: 425948002):
+  Entities modified (2): sky, color
+  Question A: What color is the sky?
+  Question B: What [color] is the [sky]?
+  Ground Truth: blue
+  Prediction A: Blue (✓)
+  Prediction B: Blue (✓)
+  Image: N/A
+----------------------------------------
+
+Example 51 (ID: 132415016):
+  Entities modified (1): What
+  Question A: What is the pizza in?
+  Question B: [What] is the pizza in?
+  Ground Truth: plate
+  Prediction A: Plate (✓)
+  Prediction B: Plate (✓)
+  Image: N/A
+----------------------------------------
+
+Example 52 (ID: 290595000):
+  Entities modified (1): picture
+  Question A: Is this picture photoshopped?
+  Question B: Is this [picture] photoshopped?
+  Ground Truth: no
+  Prediction A: No (✓)
+  Prediction B: No (✓)
+  Image: N/A
+----------------------------------------
+
+Example 53 (ID: 354814005):
+  Entities modified (2): bear, What
+  Question A: What is the bear lying on?
+  Question B: [What] is the [bear] lying on?
+  Ground Truth: tree branch
+  Prediction A: Branch (✗)
+  Prediction B: Branch (✗)
+  Image: N/A
+----------------------------------------
+
+Example 54 (ID: 434993001):
+  Entities modified (2): people, many
+  Question A: How many people are skating?
+  Question B: How [many] [people] are skating?
+  Ground Truth: 1
+  Prediction A: 1 (✓)
+  Prediction B: 1 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 55 (ID: 458846000):
+  Entities modified (3): there, buildings, many
+  Question A: How many buildings are there?
+  Question B: How [many] [buildings] are [there]?
+  Ground Truth: 2
+  Prediction A: 2 (✓)
+  Prediction B: 2 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 56 (ID: 223241026):
+  Entities modified (1): it
+  Question A: Is it daylight?
+  Question B: Is [it] daylight?
+  Ground Truth: no
+  Prediction A: No (✓)
+  Prediction B: No (✓)
+  Image: N/A
+----------------------------------------
+
+Example 57 (ID: 243158000):
+  Entities modified (4): room, color, majority, What
+  Question A: What is the majority color in the room?
+  Question B: [What] is the [majority] [color] in the [room]?
+  Ground Truth: brown
+  Prediction A: Blue (✗)
+  Prediction B: Blue (✗)
+  Image: N/A
+----------------------------------------
+
+Example 58 (ID: 262101003):
+  Entities modified (4): face, his, man, What
+  Question A: What does the man have on his face?
+  Question B: [What] does the [man] have on [his] [face]?
+  Ground Truth: glasses
+  Prediction A: Glasses (✓)
+  Prediction B: Glasses (✓)
+  Image: N/A
+----------------------------------------
+
+Example 59 (ID: 454404006):
+  Entities modified (2): woman, What
+  Question A: What is the woman wearing?
+  Question B: [What] is the [woman] wearing?
+  Ground Truth: shirt
+  Prediction A: T-shirt (✗)
+  Prediction B: Shoes (✗)
+  Image: N/A
+----------------------------------------
+
+Example 60 (ID: 283816002):
+  Entities modified (2): this, room
+  Question A: What room is this?
+  Question B: What [room] is [this]?
+  Ground Truth: kitchen
+  Prediction A: Kitchen (✓)
+  Prediction B: Kitchen (✓)
+  Image: N/A
+----------------------------------------
+
+Example 61 (ID: 243313001):
+  Entities modified (2): TV, this
+  Question A: Is this a TV or microwave?
+  Question B: Is [this] a [TV] or microwave?
+  Ground Truth: tv
+  Prediction A: Tv (✓)
+  Prediction B: Tv (✓)
+  Image: N/A
+----------------------------------------
+
+Example 62 (ID: 541391004):
+  Entities modified (1): batter
+  Question A: Has the batter swung?
+  Question B: Has the [batter] swung?
+  Ground Truth: yes
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 63 (ID: 160498014):
+  Entities modified (4): boy, system, game, What
+  Question A: What game system is the boy playing?
+  Question B: [What] [game] [system] is the [boy] playing?
+  Ground Truth: computer
+  Prediction A: Computer (✓)
+  Prediction B: Computer (✓)
+  Image: N/A
+----------------------------------------
+
+Example 64 (ID: 465489003):
+  Entities modified (4): picture, cold, warm, it
+  Question A: Is it warm or cold in this picture?
+  Question B: Is [it] [warm] or [cold] in this [picture]?
+  Ground Truth: cold
+  Prediction A: Cold (✓)
+  Prediction B: Cold (✓)
+  Image: N/A
+----------------------------------------
+
+Example 65 (ID: 293166012):
+  Entities modified (1): city
+  Question A: Is this city located in the U.S.?
+  Question B: Is this [city] located in the U.S.?
+  Ground Truth: yes
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 66 (ID: 261587002):
+  Entities modified (3): board, water, color
+  Question A: What color is the water under the board?
+  Question B: What [color] is the [water] under the [board]?
+  Ground Truth: blue
+  Prediction A: White (✗)
+  Prediction B: White (✗)
+  Image: N/A
+----------------------------------------
+
+Example 67 (ID: 404613002):
+  Entities modified (1): child
+  Question A: Is the child wearing shorts?
+  Question B: Is the [child] wearing shorts?
+  Ground Truth: yes
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 68 (ID: 106614000):
+  Entities modified (1): What
+  Question A: What's in the pitchers?
+  Question B: [What]'s in the pitchers?
+  Ground Truth: orange juice
+  Prediction A: Juice (✗)
+  Prediction B: Juice (✗)
+  Image: N/A
+----------------------------------------
+
+Example 69 (ID: 490199000):
+  Entities modified (2): orange, shape
+  Question A: What shape is the orange reflector?
+  Question B: What [shape] is the [orange] reflector?
+  Ground Truth: square
+  Prediction A: Round (✗)
+  Prediction B: Round (✗)
+  Image: N/A
+----------------------------------------
+
+Example 70 (ID: 60569003):
+  Entities modified (2): person, object
+  Question A: What object is the person holding?
+  Question B: What [object] is the [person] holding?
+  Ground Truth: remote
+  Prediction A: Wii remote (✗)
+  Prediction B: Wii controller (✗)
+  Image: N/A
+----------------------------------------
+
+Example 71 (ID: 476233024):
+  Entities modified (3): field, players, many
+  Question A: How many players on field?
+  Question B: How [many] [players] on [field]?
+  Ground Truth: 4
+  Prediction A: 4 (✓)
+  Prediction B: 4 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 72 (ID: 45587002):
+  Entities modified (3): color, same, all
+  Question A: Are all of the surfers wearing the same color shirt?
+  Question B: Are [all] of the surfers wearing the [same] [color] shirt?
+  Ground Truth: no
+  Prediction A: No (✓)
+  Prediction B: No (✓)
+  Image: N/A
+----------------------------------------
+
+Example 73 (ID: 355137000):
+  Entities modified (1): it
+  Question A: Is it snowing?
+  Question B: Is [it] snowing?
+  Ground Truth: no
+  Prediction A: No (✓)
+  Prediction B: No (✓)
+  Image: N/A
+----------------------------------------
+
+Example 74 (ID: 167647006):
+  Entities modified (1): this
+  Question A: Is this a pepperoni pizza?
+  Question B: Is [this] a pepperoni pizza?
+  Ground Truth: no
+  Prediction A: No (✓)
+  Prediction B: No (✓)
+  Image: N/A
+----------------------------------------
+
+Example 75 (ID: 21147002):
+  Entities modified (3): train, modern, this
+  Question A: Is this a modern train?
+  Question B: Is [this] a [modern] [train]?
+  Ground Truth: no
+  Prediction A: No (✓)
+  Prediction B: No (✓)
+  Image: N/A
+----------------------------------------
+
+Example 76 (ID: 307026000):
+  Entities modified (1): letter
+  Question A: What letter is on the racket?
+  Question B: What [letter] is on the racket?
+  Ground Truth: a
+  Prediction A: W (✗)
+  Prediction B: W (✗)
+  Image: N/A
+----------------------------------------
+
+Example 77 (ID: 464390000):
+  Entities modified (3): animals, types, many
+  Question A: How many types of animals are pictured?
+  Question B: How [many] [types] of [animals] are pictured?
+  Ground Truth: 3
+  Prediction A: 2 (✗)
+  Prediction B: 2 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 78 (ID: 551963004):
+  Entities modified (2): man, color
+  Question A: What color is the man's shirt?
+  Question B: What [color] is the [man]'s shirt?
+  Ground Truth: blue
+  Prediction A: Blue (✓)
+  Prediction B: Blue (✓)
+  Image: N/A
+----------------------------------------
+
+Example 79 (ID: 105974002):
+  Entities modified (2): watch, man
+  Question A: Is the man wearing a watch?
+  Question B: Is the [man] wearing a [watch]?
+  Ground Truth: no
+  Prediction A: No (✓)
+  Prediction B: Yes (✗)
+  Image: N/A
+----------------------------------------
+
+Example 80 (ID: 368820001):
+  Entities modified (3): people, next, there
+  Question A: Is there a bench next to one of the people?
+  Question B: Is [there] a bench [next] to one of the [people]?
+  Ground Truth: yes
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 81 (ID: 465453000):
+  Entities modified (1): he
+  Question A: Is he dancing?
+  Question B: Is [he] dancing?
+  Ground Truth: no
+  Prediction A: No (✓)
+  Prediction B: No (✓)
+  Image: N/A
+----------------------------------------
+
+Example 82 (ID: 486694001):
+  Entities modified (4): car, train, visible, number
+  Question A: What number is visible on the train car?
+  Question B: What [number] is [visible] on the [train] [car]?
+  Ground Truth: 66428
+  Prediction A: 60323 (✗)
+  Prediction B: 6323 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 83 (ID: 197658002):
+  Entities modified (2): ball, What
+  Question A: What ball is on the billboard?
+  Question B: [What] [ball] is on the billboard?
+  Ground Truth: baseball
+  Prediction A: Basketball (✗)
+  Prediction B: Basketball (✗)
+  Image: N/A
+----------------------------------------
+
+Example 84 (ID: 2434002):
+  Entities modified (1): there
+  Question A: Are there any photographs?
+  Question B: Are [there] any photographs?
+  Ground Truth: yes
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 85 (ID: 379716001):
+  Entities modified (3): this, soup, type
+  Question A: What type of soup is this?
+  Question B: What [type] of [soup] is [this]?
+  Ground Truth: broccoli
+  Prediction A: Broccoli (✓)
+  Prediction B: Broccoli (✓)
+  Image: N/A
+----------------------------------------
+
+Example 86 (ID: 567536007):
+  Entities modified (5): arms, his, boy, little, What
+  Question A: What does the little boy have on his arms?
+  Question B: [What] does the [little] [boy] have on [his] [arms]?
+  Ground Truth: shovel
+  Prediction A: Nothing (✗)
+  Prediction B: Nothing (✗)
+  Image: N/A
+----------------------------------------
+
+Example 87 (ID: 410942005):
+  Entities modified (3): today, people, activity
+  Question A: What activity are these people doing today?
+  Question B: What [activity] are these [people] doing [today]?
+  Ground Truth: skiing
+  Prediction A: Skiing (✓)
+  Prediction B: Skiing (✓)
+  Image: N/A
+----------------------------------------
+
+Example 88 (ID: 422833028):
+  Entities modified (3): table, children, many
+  Question A: How many children are at the table?
+  Question B: How [many] [children] are at the [table]?
+  Ground Truth: 1
+  Prediction A: 1 (✓)
+  Prediction B: 1 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 89 (ID: 216198006):
+  Entities modified (2): they, What
+  Question A: What are they playing?
+  Question B: [What] are [they] playing?
+  Ground Truth: soccer
+  Prediction A: Soccer (✓)
+  Prediction B: Soccer (✓)
+  Image: N/A
+----------------------------------------
+
+Example 90 (ID: 77282001):
+  Entities modified (2): fresh, flowers
+  Question A: Are flowers fresh?
+  Question B: Are [flowers] [fresh]?
+  Ground Truth: no
+  Prediction A: Yes (✗)
+  Prediction B: Yes (✗)
+  Image: N/A
+----------------------------------------
+
+Example 91 (ID: 160855004):
+  Entities modified (2): blue, many
+  Question A: How many blue dots are on the kite?
+  Question B: How [many] [blue] dots are on the kite?
+  Ground Truth: 0
+  Prediction A: 0 (✓)
+  Prediction B: 0 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 92 (ID: 50034001):
+  Entities modified (1): food
+  Question A: What toppings are on the food?
+  Question B: What toppings are on the [food]?
+  Ground Truth: marshmallows
+  Prediction A: Chocolate (✗)
+  Prediction B: Chocolate (✗)
+  Image: N/A
+----------------------------------------
+
+Example 93 (ID: 411138000):
+  Entities modified (3): this, structure, type
+  Question A: What type of structure is this?
+  Question B: What [type] of [structure] is [this]?
+  Ground Truth: greenhouse
+  Prediction A: Greenhouse (✓)
+  Prediction B: Greenhouse (✓)
+  Image: N/A
+----------------------------------------
+
+Example 94 (ID: 289388000):
+  Entities modified (2): there, many
+  Question A: How many towels are hanging there?
+  Question B: How [many] towels are hanging [there]?
+  Ground Truth: 4
+  Prediction A: 2 (✗)
+  Prediction B: 2 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 95 (ID: 246125002):
+  Entities modified (3): hand, child, What
+  Question A: What is in the child's hand?
+  Question B: [What] is in the [child]'s [hand]?
+  Ground Truth: toothbrush
+  Prediction A: Toothbrush (✓)
+  Prediction B: Toothbrush (✓)
+  Image: N/A
+----------------------------------------
+
+Example 96 (ID: 468885010):
+  Entities modified (2): rod, many
+  Question A: How many towels are hanging on the rod?
+  Question B: How [many] towels are hanging on the [rod]?
+  Ground Truth: 0
+  Prediction A: 0 (✓)
+  Prediction B: 1 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 97 (ID: 188818002):
+  Entities modified (2): chair, color
+  Question A: What color is chair?
+  Question B: What [color] is [chair]?
+  Ground Truth: brown
+  Prediction A: Brown (✓)
+  Prediction B: Green (✗)
+  Image: N/A
+----------------------------------------
+
+Example 98 (ID: 278161008):
+  Entities modified (3): bus, number, What
+  Question A: What is the number on the bus?
+  Question B: [What] is the [number] on the [bus]?
+  Ground Truth: 1551
+  Prediction A: 32 (✗)
+  Prediction B: 32 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 99 (ID: 10995004):
+  Entities modified (2): open, window
+  Question A: Is the window open?
+  Question B: Is the [window] [open]?
+  Ground Truth: yes
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 100 (ID: 362352000):
+  Entities modified (2): train, numbers
+  Question A: What numbers are on the train?
+  Question B: What [numbers] are on the [train]?
+  Ground Truth: 92
+  Prediction A: L92 (✗)
+  Prediction B: L92 (✗)
+  Image: N/A
+----------------------------------------
+

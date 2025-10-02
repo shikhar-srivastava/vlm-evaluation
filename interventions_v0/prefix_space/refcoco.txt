@@ -1,0 +1,1005 @@
+Intervention: prefix_space
+Dataset: refcoco
+Total examples: 100
+================================================================================
+
+Example 1 (ID: 5553170074492262299):
+  Entities modified (2): tree, left
+  Question A: elephant on the left behind tree
+  Question B: elephant on the  left behind  tree
+  Ground Truth: [0.01, 0.01, 0.49, 0.75]
+  Prediction A: [0.0, 0.25, 0.24, 0.63] (✗)
+  Prediction B: [0.0, 0.25, 0.24, 0.63] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 2 (ID: 8356747323767278011):
+  Entities modified (1): back
+  Question A: left back
+  Question B: left  back
+  Ground Truth: [0.22, 0.18, 0.55, 0.48]
+  Prediction A: [0.32, 0.19, 0.52, 0.51] (✓)
+  Prediction B: [0.32, 0.18, 0.52, 0.51] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 3 (ID: -952498808653972003):
+  Entities modified (1): yellow
+  Question A: yellow shirt
+  Question B:  yellow shirt
+  Ground Truth: [0.48, 0.58, 0.72, 1.0]
+  Prediction A: [0.46, 0.54, 0.7, 0.83] (✗)
+  Prediction B: [0.45, 0.54, 0.7, 0.83] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 4 (ID: 2910215299897861488):
+  Entities modified (2): laptop, black
+  Question A: right black laptop
+  Question B: right  black  laptop
+  Ground Truth: [0.52, 0.61, 0.86, 0.95]
+  Prediction A: [0.55, 0.6, 0.88, 0.86] (✓)
+  Prediction B: [0.58, 0.6, 0.9, 0.86] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 5 (ID: 9212388640858377258):
+  Entities modified (1): blue
+  Question A: blue shirt
+  Question B:  blue shirt
+  Ground Truth: [0.08, 0.18, 0.35, 1.0]
+  Prediction A: [0.08, 0.25, 0.36, 0.86] (✓)
+  Prediction B: [0.08, 0.25, 0.36, 0.86] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 6 (ID: -4072230271313672069):
+  Entities modified (2): black, woman
+  Question A: woman black shirt
+  Question B:  woman  black shirt
+  Ground Truth: [0.3, 0.25, 0.49, 1.0]
+  Prediction A: [0.29, 0.33, 0.46, 0.86] (✓)
+  Prediction B: [0.3, 0.33, 0.48, 0.86] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 7 (ID: -922631732447041590):
+  Entities modified (3): edge, frame, window
+  Question A: window frame edge
+  Question B:  window  frame  edge
+  Ground Truth: [0.5, 0.0, 0.99, 0.99]
+  Prediction A: [0.69, 0.13, 0.99, 0.87] (✗)
+  Prediction B: [0.69, 0.13, 0.99, 0.87] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 8 (ID: 4916997547669193222):
+  Entities modified (3): right, bus, white
+  Question A: white bus on right
+  Question B:  white  bus on  right
+  Ground Truth: [0.83, 0.35, 1.0, 0.87]
+  Prediction A: [0.79, 0.36, 1.0, 0.88] (✓)
+  Prediction B: [0.79, 0.36, 1.0, 0.88] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 9 (ID: 6420880192023508518):
+  Entities modified (1): girl
+  Question A: girl
+  Question B:  girl
+  Ground Truth: [0.0, 0.0, 0.68, 1.0]
+  Prediction A: [0.0, 0.17, 0.58, 0.82] (✓)
+  Prediction B: [0.0, 0.17, 0.55, 0.82] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 10 (ID: 7435433189913584649):
+  Entities modified (5): lake, boat, control, remote, yellow
+  Question A: a yellow remote control boat on a lake
+  Question B: a  yellow  remote  control  boat on a  lake
+  Ground Truth: [0.25, 0.0, 0.93, 0.74]
+  Prediction A: [0.32, 0.56, 0.8, 0.75] (✗)
+  Prediction B: [0.31, 0.55, 0.8, 0.75] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 11 (ID: 3010798153676698283):
+  Entities modified (2): newspaper, gap
+  Question A: gap between newspaper and sandwich
+  Question B:  gap between  newspaper and sandwich
+  Ground Truth: [0.49, 0.08, 1.0, 0.99]
+  Prediction A: [0.64, 0.48, 0.84, 0.6] (✗)
+  Prediction B: [0.65, 0.48, 0.89, 0.62] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 12 (ID: 2891463913082084397):
+  Entities modified (3): girl, front, bottom
+  Question A: bottom frige in front of girl
+  Question B:  bottom frige in  front of  girl
+  Ground Truth: [0.21, 0.35, 0.43, 0.89]
+  Prediction A: [0.34, 0.49, 0.52, 0.78] (✗)
+  Prediction B: [0.34, 0.49, 0.54, 0.78] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 13 (ID: -8327164666688746986):
+  Entities modified (1): adult
+  Question A: adult
+  Question B:  adult
+  Ground Truth: [0.0, 0.0, 0.29, 0.96]
+  Prediction A: [0.0, 0.13, 0.28, 0.86] (✓)
+  Prediction B: [0.0, 0.13, 0.28, 0.86] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 14 (ID: 7263019314778378380):
+  Entities modified (2): man, older
+  Question A: an older man
+  Question B: an  older  man
+  Ground Truth: [0.52, 0.24, 0.86, 0.83]
+  Prediction A: [0.54, 0.26, 0.72, 0.84] (✓)
+  Prediction B: [0.54, 0.26, 0.72, 0.83] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 15 (ID: 5703507427273787385):
+  Entities modified (1): chef
+  Question A: left chef
+  Question B: left  chef
+  Ground Truth: [0.09, 0.28, 0.24, 0.98]
+  Prediction A: [0.08, 0.37, 0.26, 0.82] (✓)
+  Prediction B: [0.09, 0.36, 0.28, 0.82] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 16 (ID: 8563903074533814157):
+  Entities modified (2): plate, man
+  Question A: a standing woman handing a sitting man a plate
+  Question B: a standing wo man handing a sitting man a  plate
+  Ground Truth: [0.0, 0.0, 0.46, 0.72]
+  Prediction A: [0.12, 0.0, 0.42, 0.74] (✓)
+  Prediction B: [0.12, 0.0, 0.42, 0.74] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 17 (ID: -7414873162478921158):
+  Entities modified (2): girl, little
+  Question A: little girl
+  Question B:  little  girl
+  Ground Truth: [0.17, 0.09, 0.61, 0.74]
+  Prediction A: [0.2, 0.18, 0.58, 0.65] (✓)
+  Prediction B: [0.2, 0.18, 0.58, 0.65] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 18 (ID: 4814278604455761071):
+  Entities modified (2): laptop, table
+  Question A: the table that the laptop is sitting on
+  Question B: the  table that the  laptop is sitting on
+  Ground Truth: [0.54, 0.79, 0.96, 1.0]
+  Prediction A: [0.49, 0.68, 0.99, 0.87] (✗)
+  Prediction B: [0.49, 0.68, 0.99, 0.87] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 19 (ID: 4504260168441203032):
+  Entities modified (1): right
+  Question A: right umbrella
+  Question B:  right umbrella
+  Ground Truth: [0.5, 0.0, 1.0, 0.18]
+  Prediction A: [0.69, 0.17, 1.0, 0.4] (✗)
+  Prediction B: [0.72, 0.17, 1.0, 0.4] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 20 (ID: 2157817379211101447):
+  Entities modified (1): closest
+  Question A: sandwich closest to bottle
+  Question B: sandwich  closest to bottle
+  Ground Truth: [0.33, 0.16, 0.55, 0.48]
+  Prediction A: [0.38, 0.29, 0.64, 0.48] (✗)
+  Prediction B: [0.36, 0.29, 0.62, 0.48] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 21 (ID: 8674699400511692068):
+  Entities modified (1): partial
+  Question A: partial truck
+  Question B:  partial truck
+  Ground Truth: [0.0, 0.38, 0.19, 0.99]
+  Prediction A: [0.0, 0.3, 0.25, 0.84] (✓)
+  Prediction B: [0.0, 0.3, 0.22, 0.84] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 22 (ID: -6782502641046333425):
+  Entities modified (2): cow, big
+  Question A: big cow
+  Question B:  big  cow
+  Ground Truth: [0.02, 0.02, 0.87, 0.66]
+  Prediction A: [0.0, 0.15, 0.84, 0.64] (✓)
+  Prediction B: [0.0, 0.15, 0.8, 0.64] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 23 (ID: 7516015437714936921):
+  Entities modified (3): person, dress, red
+  Question A: red dress person sunglasses
+  Question B:  red  dress  person sunglasses
+  Ground Truth: [0.48, 0.15, 0.72, 0.84]
+  Prediction A: [0.5, 0.13, 0.66, 0.82] (✓)
+  Prediction B: [0.38, 0.1, 0.58, 0.88] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 24 (ID: 9106097338803255059):
+  Entities modified (1): person
+  Question A: person in a checked shirt
+  Question B:  person in a checked shirt
+  Ground Truth: [0.04, 0.41, 0.2, 0.75]
+  Prediction A: [0.0, 0.38, 0.18, 0.98] (✗)
+  Prediction B: [0.0, 0.38, 0.16, 0.92] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 25 (ID: -2277187257566302436):
+  Entities modified (2): van, car
+  Question A: car after van
+  Question B:  car after  van
+  Ground Truth: [0.0, 0.6, 0.19, 0.87]
+  Prediction A: [0.0, 0.56, 0.22, 0.78] (✓)
+  Prediction B: [0.0, 0.56, 0.22, 0.78] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 26 (ID: 4698894596062997174):
+  Entities modified (3): bear, right, top
+  Question A: top right bear
+  Question B:  top  right  bear
+  Ground Truth: [0.65, 0.28, 0.9, 0.58]
+  Prediction A: [0.68, 0.0, 0.88, 0.29] (✗)
+  Prediction B: [0.68, 0.0, 0.88, 0.28] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 27 (ID: -1385274126253513533):
+  Entities modified (2): camera, person
+  Question A: person holding camera
+  Question B:  person holding  camera
+  Ground Truth: [0.04, 0.27, 0.97, 0.95]
+  Prediction A: [0.17, 0.28, 0.74, 0.91] (✓)
+  Prediction B: [0.17, 0.28, 0.74, 0.91] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 28 (ID: 234928189298395582):
+  Entities modified (2): red, man
+  Question A: man wearing a red helmet
+  Question B:  man wearing a  red helmet
+  Ground Truth: [0.11, 0.02, 0.39, 0.4]
+  Prediction A: [0.19, 0.02, 0.3, 0.12] (✗)
+  Prediction B: [0.18, 0.01, 0.3, 0.18] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 29 (ID: -6748200074734170940):
+  Entities modified (2): boy, young
+  Question A: young boy
+  Question B:  young  boy
+  Ground Truth: [0.16, 0.12, 0.44, 0.82]
+  Prediction A: [0.19, 0.11, 0.38, 0.82] (✓)
+  Prediction B: [0.19, 0.11, 0.38, 0.82] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 30 (ID: 7639130639761785013):
+  Entities modified (1): shorter
+  Question A: shorter broccoli
+  Question B:  shorter broccoli
+  Ground Truth: [0.27, 0.01, 0.76, 0.41]
+  Prediction A: [0.0, 0.25, 0.38, 0.71] (✗)
+  Prediction B: [0.0, 0.25, 0.39, 0.71] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 31 (ID: 439108976753706900):
+  Entities modified (2): front, right
+  Question A: broccoli in right front
+  Question B: broccoli in  right  front
+  Ground Truth: [0.6, 0.69, 0.85, 0.98]
+  Prediction A: [0.38, 0.64, 0.8, 0.98] (✗)
+  Prediction B: [0.44, 0.64, 0.8, 0.98] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 32 (ID: -6586832766923609999):
+  Entities modified (1): white
+  Question A: white trailer
+  Question B:  white trailer
+  Ground Truth: [0.53, 0.0, 1.0, 0.52]
+  Prediction A: [0.54, 0.28, 1.0, 0.52] (✗)
+  Prediction B: [0.54, 0.28, 1.0, 0.52] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 33 (ID: -4568615499735677951):
+  Entities modified (3): left, lower, girl
+  Question A: girl with ponytail lower left
+  Question B:  girl with ponytail  lower  left
+  Ground Truth: [0.06, 0.42, 0.51, 1.0]
+  Prediction A: [0.0, 0.44, 0.38, 0.87] (✗)
+  Prediction B: [0.0, 0.45, 0.38, 0.87] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 34 (ID: 8753815818980894432):
+  Entities modified (1): blue
+  Question A: blue shirt
+  Question B:  blue shirt
+  Ground Truth: [0.82, 0.1, 1.0, 0.93]
+  Prediction A: [0.82, 0.19, 1.0, 0.8] (✓)
+  Prediction B: [0.82, 0.19, 1.0, 0.8] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 35 (ID: 6194645955819960948):
+  Entities modified (5): white, focus, out, end, rear
+  Question A: the rear end of an out of focus white lamb
+  Question B: the  rear  end of an  out of  focus  white lamb
+  Ground Truth: [0.58, 0.37, 1.0, 0.91]
+  Prediction A: [0.74, 0.3, 1.0, 0.82] (✗)
+  Prediction B: [0.78, 0.3, 1.0, 0.82] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 36 (ID: -3555324506565863855):
+  Entities modified (1): white
+  Question A: white shirt
+  Question B:  white shirt
+  Ground Truth: [0.66, 0.12, 0.88, 0.71]
+  Prediction A: [0.62, 0.21, 0.9, 0.62] (✓)
+  Prediction B: [0.62, 0.21, 0.9, 0.62] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 37 (ID: 2172217359600565535):
+  Entities modified (2): tie, yellow
+  Question A: guy in yellow tie
+  Question B: guy in  yellow  tie
+  Ground Truth: [0.12, 0.06, 0.44, 0.92]
+  Prediction A: [0.18, 0.2, 0.43, 0.76] (✓)
+  Prediction B: [0.21, 0.2, 0.42, 0.76] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 38 (ID: -5703563112529290095):
+  Entities modified (3): right, chair, empty
+  Question A: empty chair right
+  Question B:  empty  chair  right
+  Ground Truth: [0.67, 0.64, 1.0, 1.0]
+  Prediction A: [0.72, 0.53, 1.0, 0.83] (✗)
+  Prediction B: [0.74, 0.53, 1.0, 0.83] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 39 (ID: -4175147183888723674):
+  Entities modified (2): red, person
+  Question A: the person with the red jacket
+  Question B: the  person with the  red jacket
+  Ground Truth: [0.0, 0.39, 0.85, 0.95]
+  Prediction A: [0.48, 0.42, 0.62, 0.73] (✗)
+  Prediction B: [0.48, 0.42, 0.63, 0.72] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 40 (ID: -8757424201225835213):
+  Entities modified (4): car, train, visible, largest
+  Question A: largest visible train car
+  Question B:  largest  visible  train  car
+  Ground Truth: [0.04, 0.04, 0.88, 0.93]
+  Prediction A: [0.0, 0.13, 0.99, 0.8] (✓)
+  Prediction B: [0.0, 0.13, 0.99, 0.8] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 41 (ID: -419990410036473235):
+  Entities modified (1): tv
+  Question A: tv
+  Question B:  tv
+  Ground Truth: [0.0, 0.36, 0.2, 0.7]
+  Prediction A: [0.0, 0.31, 0.26, 0.69] (✓)
+  Prediction B: [0.0, 0.31, 0.25, 0.69] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 42 (ID: 8200882827657171746):
+  Entities modified (3): us, close, that
+  Question A: pizza that isnt close to us
+  Question B: pizza  that isnt  close to  us
+  Ground Truth: [0.51, 0.2, 1.0, 0.39]
+  Prediction A: [0.5, 0.19, 0.99, 0.41] (✓)
+  Prediction B: [0.5, 0.19, 0.99, 0.4] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 43 (ID: -7621965544936439048):
+  Entities modified (2): object, woman
+  Question A: a woman wearing a printed blouse bending over to pull an object out of a drawer
+  Question B: a  woman wearing a printed blouse bending over to pull an  object out of a drawer
+  Ground Truth: [0.37, 0.31, 0.54, 0.87]
+  Prediction A: [0.38, 0.34, 0.58, 0.78] (✓)
+  Prediction B: [0.38, 0.34, 0.58, 0.78] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 44 (ID: -8354883520271246367):
+  Entities modified (2): next, small
+  Question A: small appliance next to fridge
+  Question B:  small appliance  next to fridge
+  Ground Truth: [0.38, 0.65, 0.51, 1.0]
+  Prediction A: [0.41, 0.55, 0.5, 0.66] (✗)
+  Prediction B: [0.42, 0.55, 0.51, 0.66] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 45 (ID: 1312841387698108175):
+  Entities modified (1): baby
+  Question A: trunk by baby butt
+  Question B: trunk by  baby butt
+  Ground Truth: [0.79, 0.01, 1.0, 0.77]
+  Prediction A: [0.0, 0.17, 0.49, 0.58] (✗)
+  Prediction B: [0.0, 0.17, 0.49, 0.58] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 46 (ID: -175403306758473181):
+  Entities modified (2): phone, man
+  Question A: man looking at phone
+  Question B:  man looking at  phone
+  Ground Truth: [0.55, 0.08, 0.98, 0.59]
+  Prediction A: [0.69, 0.18, 1.0, 0.68] (✗)
+  Prediction B: [0.69, 0.18, 1.0, 0.68] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 47 (ID: 1943341372570967900):
+  Entities modified (1): front
+  Question A: front elephant
+  Question B:  front elephant
+  Ground Truth: [0.24, 0.3, 0.66, 0.98]
+  Prediction A: [0.24, 0.21, 0.7, 0.94] (✓)
+  Prediction B: [0.23, 0.18, 0.69, 0.95] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 48 (ID: -5481992029941096511):
+  Entities modified (2): car, red
+  Question A: red freight car
+  Question B:  red freight  car
+  Ground Truth: [0.82, 0.44, 1.0, 0.72]
+  Prediction A: [0.72, 0.47, 1.0, 0.63] (✗)
+  Prediction B: [0.74, 0.47, 1.0, 0.62] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 49 (ID: 436680868309998242):
+  Entities modified (2): green, person
+  Question A: person in green
+  Question B:  person in  green
+  Ground Truth: [0.5, 0.02, 0.72, 0.99]
+  Prediction A: [0.48, 0.16, 0.7, 0.86] (✓)
+  Prediction B: [0.48, 0.16, 0.7, 0.86] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 50 (ID: -7663802689084418409):
+  Entities modified (2): plane, last
+  Question A: last plane
+  Question B:  last  plane
+  Ground Truth: [0.06, 0.21, 0.38, 0.6]
+  Prediction A: [0.0, 0.28, 0.2, 0.62] (✗)
+  Prediction B: [0.0, 0.22, 0.22, 0.6] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 51 (ID: -6506357616161811696):
+  Entities modified (2): down, woman
+  Question A: woman looking down
+  Question B:  woman looking  down
+  Ground Truth: [0.2, 0.07, 0.53, 0.58]
+  Prediction A: [0.0, 0.33, 0.21, 0.87] (✗)
+  Prediction B: [0.0, 0.33, 0.22, 0.87] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 52 (ID: 8395149264658202326):
+  Entities modified (4): plate, green, white, girl
+  Question A: girl in white with green plate
+  Question B:  girl in  white with  green  plate
+  Ground Truth: [0.6, 0.23, 0.81, 0.96]
+  Prediction A: [0.4, 0.38, 0.63, 0.83] (✗)
+  Prediction B: [0.42, 0.38, 0.63, 0.83] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 53 (ID: 1906163955041596205):
+  Entities modified (1): blue
+  Question A: blue striped shirt
+  Question B:  blue striped shirt
+  Ground Truth: [0.87, 0.2, 1.0, 0.82]
+  Prediction A: [0.86, 0.28, 1.0, 0.65] (✓)
+  Prediction B: [0.86, 0.28, 1.0, 0.65] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 54 (ID: -4154449307111105448):
+  Entities modified (3): front, sheep, baby
+  Question A: baby sheep in front
+  Question B:  baby  sheep in  front
+  Ground Truth: [0.45, 0.5, 0.66, 0.9]
+  Prediction A: [0.41, 0.48, 0.6, 0.73] (✗)
+  Prediction B: [0.42, 0.49, 0.6, 0.73] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 55 (ID: -155597188312105427):
+  Entities modified (1): trouble
+  Question A: trouble truck
+  Question B:  trouble truck
+  Ground Truth: [0.23, 0.21, 0.96, 0.56]
+  Prediction A: [0.08, 0.36, 0.99, 0.55] (✗)
+  Prediction B: [0.08, 0.37, 0.99, 0.55] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 56 (ID: -9139521287620385356):
+  Entities modified (1): right
+  Question A: monitor on the right
+  Question B: monitor on the  right
+  Ground Truth: [0.7, 0.11, 1.0, 0.48]
+  Prediction A: [0.6, 0.1, 0.83, 0.5] (✗)
+  Prediction B: [0.6, 0.1, 0.83, 0.5] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 57 (ID: 8115002491389212410):
+  Entities modified (3): places, about, book
+  Question A: book about 1000 places to see
+  Question B:  book  about 1000  places to see
+  Ground Truth: [0.38, 0.59, 1.0, 0.96]
+  Prediction A: [0.42, 0.52, 0.78, 0.74] (✗)
+  Prediction B: [0.42, 0.5, 0.8, 0.75] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 58 (ID: 2419548892845312060):
+  Entities modified (2): right, far
+  Question A: far right guy
+  Question B:  far  right guy
+  Ground Truth: [0.77, 0.2, 1.0, 0.99]
+  Prediction A: [0.8, 0.3, 1.0, 0.83] (✓)
+  Prediction B: [0.8, 0.3, 1.0, 0.83] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 59 (ID: 2044768190744953889):
+  Entities modified (4): side, left, player, white
+  Question A: white mp3 player sitting on left side of phones
+  Question B:  white mp3  player sitting on  left  side of phones
+  Ground Truth: [0.03, 0.17, 0.45, 0.64]
+  Prediction A: [0.0, 0.21, 0.36, 0.61] (✓)
+  Prediction B: [0.0, 0.21, 0.34, 0.6] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 60 (ID: 2036772792077752144):
+  Entities modified (3): top, meat, piece
+  Question A: a piece of meat with mushrooms on top
+  Question B: a  piece of  meat with mushrooms on  top
+  Ground Truth: [0.3, 0.48, 0.64, 0.77]
+  Prediction A: [0.34, 0.51, 0.65, 0.78] (✓)
+  Prediction B: [0.35, 0.51, 0.66, 0.78] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 61 (ID: 4635825478073344809):
+  Entities modified (2): camera, closer
+  Question A: zebra closer to camera
+  Question B: zebra  closer to  camera
+  Ground Truth: [0.0, 0.02, 0.55, 0.98]
+  Prediction A: [0.0, 0.17, 0.5, 0.82] (✓)
+  Prediction B: [0.0, 0.17, 0.5, 0.82] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 62 (ID: -457244915994244496):
+  Entities modified (1): red
+  Question A: lol red truck
+  Question B: lol  red truck
+  Ground Truth: [0.76, 0.19, 1.0, 0.85]
+  Prediction A: [0.76, 0.29, 1.0, 0.74] (✓)
+  Prediction B: [0.76, 0.29, 1.0, 0.74] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 63 (ID: -1386105205022379480):
+  Entities modified (2): dog, hot
+  Question A: farthest hot dog
+  Question B: farthest  hot  dog
+  Ground Truth: [0.01, 0.04, 0.97, 0.56]
+  Prediction A: [0.0, 0.12, 1.0, 0.88] (✓)
+  Prediction B: [0.0, 0.12, 1.0, 0.88] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 64 (ID: -4101283483480606704):
+  Entities modified (2): man, shorter
+  Question A: bike behind shorter man
+  Question B: bike behind  shorter  man
+  Ground Truth: [0.13, 0.34, 0.5, 0.86]
+  Prediction A: [0.1, 0.48, 0.48, 0.74] (✗)
+  Prediction B: [0.1, 0.48, 0.48, 0.74] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 65 (ID: -6315312971637680015):
+  Entities modified (1): cat
+  Question A: left cat
+  Question B: left  cat
+  Ground Truth: [0.17, 0.06, 0.52, 0.73]
+  Prediction A: [0.19, 0.16, 0.5, 0.68] (✓)
+  Prediction B: [0.18, 0.13, 0.5, 0.68] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 66 (ID: -5398052618555817183):
+  Entities modified (2): thing, white
+  Question A: lefty white thing
+  Question B: lefty  white  thing
+  Ground Truth: [0.06, 0.37, 0.49, 0.67]
+  Prediction A: [0.08, 0.39, 0.42, 0.62] (✓)
+  Prediction B: [0.08, 0.39, 0.4, 0.62] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 67 (ID: -4175985301576427617):
+  Entities modified (2): tie, man
+  Question A: man in tie
+  Question B:  man in  tie
+  Ground Truth: [0.35, 0.06, 0.71, 0.98]
+  Prediction A: [0.3, 0.21, 0.68, 0.82] (✓)
+  Prediction B: [0.3, 0.21, 0.68, 0.82] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 68 (ID: -3423254837901747625):
+  Entities modified (1): left
+  Question A: 2 from left
+  Question B: 2 from  left
+  Ground Truth: [0.12, 0.01, 0.61, 1.0]
+  Prediction A: [0.0, 0.38, 0.2, 0.62] (✗)
+  Prediction B: [0.0, 0.37, 0.2, 0.62] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 69 (ID: 1721803706315920357):
+  Entities modified (1): another
+  Question A: bear standing kicking another in the cock
+  Question B: bear standing kicking  another in the cock
+  Ground Truth: [0.0, 0.32, 0.26, 0.8]
+  Prediction A: [0.0, 0.3, 0.28, 0.69] (✓)
+  Prediction B: [0.0, 0.3, 0.28, 0.69] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 70 (ID: -7053143970334489600):
+  Entities modified (1): man
+  Question A: man on left
+  Question B:  man on left
+  Ground Truth: [0.06, 0.26, 0.27, 0.82]
+  Prediction A: [0.04, 0.34, 0.28, 0.79] (✓)
+  Prediction B: [0.08, 0.34, 0.3, 0.79] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 71 (ID: -8590444213264856720):
+  Entities modified (1): bottom
+  Question A: pizza on bottom
+  Question B: pizza on  bottom
+  Ground Truth: [0.4, 0.72, 0.85, 0.93]
+  Prediction A: [0.38, 0.62, 0.64, 0.93] (✗)
+  Prediction B: [0.38, 0.63, 0.64, 0.93] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 72 (ID: -545797975547739789):
+  Entities modified (1): player
+  Question A: player
+  Question B:  player
+  Ground Truth: [0.0, 0.17, 0.94, 0.99]
+  Prediction A: [0.17, 0.13, 0.83, 1.0] (✓)
+  Prediction B: [0.17, 0.16, 0.83, 1.0] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 73 (ID: 1398553177734108208):
+  Entities modified (2): person, black
+  Question A: a black umbrella , being held by a person in jeans
+  Question B: a  black umbrella , being held by a  person in jeans
+  Ground Truth: [0.2, 0.18, 0.61, 0.37]
+  Prediction A: [0.34, 0.2, 0.63, 0.48] (✗)
+  Prediction B: [0.34, 0.2, 0.63, 0.48] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 74 (ID: -3354575541888802086):
+  Entities modified (1): kid
+  Question A: kid
+  Question B:  kid
+  Ground Truth: [0.66, 0.14, 0.85, 0.53]
+  Prediction A: [0.68, 0.23, 0.85, 0.45] (✓)
+  Prediction B: [0.68, 0.23, 0.84, 0.45] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 75 (ID: 451039395047756192):
+  Entities modified (1): black
+  Question A: black shirt
+  Question B:  black shirt
+  Ground Truth: [0.22, 0.12, 0.55, 0.99]
+  Prediction A: [0.26, 0.23, 0.55, 0.82] (✓)
+  Prediction B: [0.28, 0.22, 0.56, 0.82] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 76 (ID: -4253249562671012855):
+  Entities modified (1): other
+  Question A: zebra kissing other zebra
+  Question B: zebra kissing  other zebra
+  Ground Truth: [0.29, 0.23, 0.9, 1.0]
+  Prediction A: [0.0, 0.25, 0.55, 0.82] (✗)
+  Prediction B: [0.0, 0.25, 0.55, 0.82] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 77 (ID: 8215796232982530608):
+  Entities modified (2): black, man
+  Question A: a man in black
+  Question B: a  man in  black
+  Ground Truth: [0.48, 0.01, 1.0, 0.97]
+  Prediction A: [0.51, 0.03, 0.83, 0.99] (✓)
+  Prediction B: [0.51, 0.03, 0.83, 0.99] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 78 (ID: 5748614710920031561):
+  Entities modified (1): book
+  Question A: neverwhere book
+  Question B: neverwhere  book
+  Ground Truth: [0.4, 0.02, 0.55, 0.35]
+  Prediction A: [0.44, 0.19, 0.62, 0.42] (✗)
+  Prediction B: [0.46, 0.19, 0.63, 0.4] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 79 (ID: -6580399966651895629):
+  Entities modified (2): girl, happy
+  Question A: happy girl
+  Question B:  happy  girl
+  Ground Truth: [0.17, 0.09, 0.61, 0.74]
+  Prediction A: [0.2, 0.19, 0.58, 0.65] (✓)
+  Prediction B: [0.2, 0.18, 0.58, 0.65] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 80 (ID: 4752002026274683798):
+  Entities modified (2): right, far
+  Question A: lol dude on far right
+  Question B: lol dude on  far  right
+  Ground Truth: [0.66, 0.35, 0.86, 0.96]
+  Prediction A: [0.68, 0.38, 0.84, 0.86] (✓)
+  Prediction B: [0.68, 0.38, 0.84, 0.86] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 81 (ID: 179336732090672965):
+  Entities modified (5): phone, head, person, which, tie
+  Question A: a tie which weared by a person wearing head phone
+  Question B: a  tie  which weared by a  person wearing  head  phone
+  Ground Truth: [0.6, 0.45, 0.78, 1.0]
+  Prediction A: [0.39, 0.5, 0.5, 0.69] (✗)
+  Prediction B: [0.38, 0.22, 0.5, 0.39] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 82 (ID: 23223897879664239):
+  Entities modified (1): dog
+  Question A: dog
+  Question B:  dog
+  Ground Truth: [0.65, 0.28, 0.88, 0.62]
+  Prediction A: [0.64, 0.34, 0.9, 0.6] (✓)
+  Prediction B: [0.65, 0.35, 0.9, 0.61] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 83 (ID: -6231433135485093735):
+  Entities modified (2): legs, bare
+  Question A: bare legs
+  Question B:  bare  legs
+  Ground Truth: [0.45, 0.0, 0.68, 0.5]
+  Prediction A: [0.4, 0.13, 0.66, 0.51] (✓)
+  Prediction B: [0.38, 0.13, 0.64, 0.58] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 84 (ID: 1225479523534719210):
+  Entities modified (2): red, boy
+  Question A: boy in red
+  Question B:  boy in  red
+  Ground Truth: [0.33, 0.2, 0.88, 0.87]
+  Prediction A: [0.32, 0.26, 0.8, 0.79] (✓)
+  Prediction B: [0.32, 0.26, 0.8, 0.78] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 85 (ID: -5555428063098184576):
+  Entities modified (1): wooden
+  Question A: pepperoni pizza on wooden slab
+  Question B: pepperoni pizza on  wooden slab
+  Ground Truth: [0.05, 0.25, 0.89, 0.98]
+  Prediction A: [0.0, 0.34, 1.0, 0.86] (✓)
+  Prediction B: [0.0, 0.33, 1.0, 0.86] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 86 (ID: 3328673847540073991):
+  Entities modified (3): ears, light, baby
+  Question A: baby goat light ears
+  Question B:  baby goat  light  ears
+  Ground Truth: [0.67, 0.5, 0.89, 0.94]
+  Prediction A: [0.39, 0.46, 0.6, 0.82] (✗)
+  Prediction B: [0.42, 0.48, 0.62, 0.82] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 87 (ID: 1288325642756521556):
+  Entities modified (1): blue
+  Question A: guy with blue gloves
+  Question B: guy with  blue gloves
+  Ground Truth: [0.37, 0.0, 0.67, 0.38]
+  Prediction A: [0.38, 0.13, 0.66, 0.5] (✗)
+  Prediction B: [0.38, 0.13, 0.66, 0.5] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 88 (ID: 8475914074120545566):
+  Entities modified (2): black, boy
+  Question A: boy in black shirt
+  Question B:  boy in  black shirt
+  Ground Truth: [0.73, 0.21, 1.0, 0.75]
+  Prediction A: [0.72, 0.28, 1.0, 0.71] (✓)
+  Prediction B: [0.7, 0.28, 1.0, 0.71] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 89 (ID: -702035052216195194):
+  Entities modified (7): small, color, green, corner, right, top, box
+  Question A: a lunch box in top right corner with a green color small box in one of the compartments
+  Question B: a lunch  box in  top  right  corner with a  green  color  small box in one of the compartments
+  Ground Truth: [0.52, 0.02, 1.0, 0.55]
+  Prediction A: [0.69, 0.13, 1.0, 0.52] (✗)
+  Prediction B: [0.69, 0.17, 1.0, 0.58] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 90 (ID: 13851309326826163):
+  Entities modified (4): big, next, lower, plain
+  Question A: plain lower donut next to big coconut donut
+  Question B:  plain  lower donut  next to  big coconut donut
+  Ground Truth: [0.51, 0.64, 0.69, 0.98]
+  Prediction A: [0.0, 0.6, 0.24, 0.94] (✗)
+  Prediction B: [0.0, 0.6, 0.24, 0.93] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 91 (ID: -3247550517883681461):
+  Entities modified (5): camera, closest, hair, brown, girl
+  Question A: girl with brown hair closest to camera hair in a bun
+  Question B:  girl with  brown  hair  closest to  camera hair in a bun
+  Ground Truth: [0.1, 0.35, 0.47, 0.99]
+  Prediction A: [0.12, 0.56, 0.4, 0.87] (✗)
+  Prediction B: [0.12, 0.58, 0.4, 0.87] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 92 (ID: 1538926304670714039):
+  Entities modified (1): girl
+  Question A: girl sitting
+  Question B:  girl sitting
+  Ground Truth: [0.35, 0.35, 0.71, 0.69]
+  Prediction A: [0.38, 0.36, 0.61, 0.69] (✓)
+  Prediction B: [0.38, 0.36, 0.61, 0.69] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 93 (ID: -3032828479769708688):
+  Entities modified (1): devil
+  Question A: the vlevet devil
+  Question B: the vlevet  devil
+  Ground Truth: [0.37, 0.03, 0.51, 0.95]
+  Prediction A: [0.38, 0.48, 0.56, 0.78] (✗)
+  Prediction B: [0.34, 0.48, 0.5, 0.78] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 94 (ID: -7684495729733393594):
+  Entities modified (1): controller
+  Question A: standing with wii controller
+  Question B: standing with wii  controller
+  Ground Truth: [0.58, 0.0, 1.0, 0.99]
+  Prediction A: [0.6, 0.13, 1.0, 0.86] (✓)
+  Prediction B: [0.6, 0.13, 1.0, 0.86] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 95 (ID: 2985519278376582185):
+  Entities modified (1): piece
+  Question A: piece of chocolate cake
+  Question B:  piece of chocolate cake
+  Ground Truth: [0.33, 0.18, 0.61, 0.82]
+  Prediction A: [0.11, 0.23, 0.8, 0.78] (✗)
+  Prediction B: [0.1, 0.23, 0.4, 0.49] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 96 (ID: -519764840833948239):
+  Entities modified (3): laptop, thing, yellow
+  Question A: yellow thing behing laptop
+  Question B:  yellow  thing behing  laptop
+  Ground Truth: [0.27, 0.0, 0.62, 0.25]
+  Prediction A: [0.3, 0.13, 0.68, 0.35] (✗)
+  Prediction B: [0.29, 0.13, 0.68, 0.36] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 97 (ID: 926469589181095312):
+  Entities modified (5): right, second, wine, white, glass
+  Question A: a glass on white wine second from the right
+  Question B: a  glass on  white  wine  second from the  right
+  Ground Truth: [0.63, 0.27, 0.76, 0.73]
+  Prediction A: [0.54, 0.3, 0.69, 0.75] (✗)
+  Prediction B: [0.52, 0.33, 0.68, 0.75] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 98 (ID: 7624664209201329706):
+  Entities modified (2): partial, middle
+  Question A: middle partial elephant
+  Question B:  middle  partial elephant
+  Ground Truth: [0.5, 0.01, 0.83, 0.36]
+  Prediction A: [0.36, 0.17, 0.84, 0.49] (✗)
+  Prediction B: [0.34, 0.17, 0.82, 0.49] (✗)
+  Image: N/A
+----------------------------------------
+
+Example 99 (ID: 2738886821809317721):
+  Entities modified (2): woman, person
+  Question A: person that not the woman
+  Question B:  person that not the  woman
+  Ground Truth: [0.34, 0.0, 0.61, 0.24]
+  Prediction A: [0.38, 0.0, 0.58, 0.3] (✓)
+  Prediction B: [0.39, 0.0, 0.58, 0.32] (✓)
+  Image: N/A
+----------------------------------------
+
+Example 100 (ID: -8555532502144056396):
+  Entities modified (2): green, boy
+  Question A: boy in green
+  Question B:  boy in  green
+  Ground Truth: [0.45, 0.24, 0.63, 0.93]
+  Prediction A: [0.38, 0.29, 0.56, 0.86] (✗)
+  Prediction B: [0.35, 0.29, 0.55, 0.85] (✗)
+  Image: N/A
+----------------------------------------
+

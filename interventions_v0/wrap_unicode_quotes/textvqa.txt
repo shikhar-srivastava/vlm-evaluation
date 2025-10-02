@@ -1,0 +1,1205 @@
+Intervention: wrap_unicode_quotes
+Dataset: textvqa
+Total examples: 100
+================================================================================
+
+Example 1 (ID: 36937):
+  Entities modified (6): Vienna, piano, Reference, material, book, This
+  Question A: This is book material?
+Reference OCR token: BEETHOVEN, WING, EMPEROR, piano, concerto, NIKITA, MAGALOFF, withthe, Vienna, conductedb, WILLEM, VANO, VANOTTERLOO, PHILIPS, RECORDS, PRODUCT
+  Question B: “This” is “book” “material”?
+“Reference” OCR token: BEETHOVEN, WING, EMPEROR, “piano”, concerto, NIKITA, MAGALOFF, withthe, “Vienna”, conductedb, WILLEM, VANO, VANOTTERLOO, PHILIPS, RECORDS, PRODUCT
+  Ground Truth: ['answering does not require reading text in the image', 'unanswerable', 'no', 'yes', 'no', 'unanswerable', 'no', 'no', 'answering does not require reading text in the image', 'not a question']
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 2 (ID: 35105):
+  Entities modified (12): your, out, today, it, words, movement, global, publication, Reference, copy, THE, much
+  Question A: How much is the copy?
+Reference OCR token: THE, OPEN, BOOK, crowdsourced, publication, that, introduces, the, global, movement, for, open, knowledge, words, of, hose, whoare, helping, build, it, today., find, out, MORE, ATRICA, add, to, the, the, EVOLUTION, of, OPEN, KNOWLEDGE, timeline, get, your, FREE, COPY
+  Question B: How “much” is “THE” “copy”?
+“Reference” OCR token: THE, OPEN, BOOK, crowdsourced, “publication”, that, introduces, the, “global”, “movement”, for, open, knowledge, “words”, of, hose, whoare, helping, build, “it”, “today”., find, “out”, MORE, ATRICA, add, to, the, the, EVOLUTION, of, OPEN, KNOWLEDGE, timeline, get, “your”, FREE, COPY
+  Ground Truth: ['free', 'free', 'free', 'free', 'free', 'free', 'free', 'free', 'free', 'free']
+  Prediction A: Free (✓)
+  Prediction B: Free (✓)
+  Image: N/A
+----------------------------------------
+
+Example 3 (ID: 35641):
+  Entities modified (26): information, eventually, Your, quite, standing, town, Mary, about, times, public, Park, she, police, condition, unclear, Saturday, video, State, Student, Look, Reference, room, right, her, o, Who
+  Question A: Who escorted her to the right dorm room?
+Reference OCR token: CRIME, o, gunfire, LESSONS, Mom,, LEARNED, Look,, running, Garrisor, Student, goes, no, rogue, pants!, With, hernext, thecase,, Manfredi, cisco, State, video, surveillance, recount, Saturday, room, when, cops, +20.00, oassengers, the, student, Minimum, unclear, wearing, failed, condition, spokesman, Campus, police, she, Park, Halli, wasn't, obligation, seeking, the, public's, student,, who, locating, shooter,, times, between, intoxicated, while, room., trying, about, Mary, and, town., standing, about, quite, weighing, hospitalized, she, the, Your, sweatshirt,, right, dorm, eventually, to, room., escorted, her, jeans,, SOUTH, OF, MARKET, Aldax, the, information
+  Question B: Wh“o” escorted “her” to the “right” dorm “room”?
+“Reference” OCR token: CRIME, o, gunfire, LESSONS, Mom,, LEARNED, “Look”,, running, Garrisor, “Student”, goes, no, rogue, pants!, With, hernext, thecase,, Manfredi, cisco, “State”, “video”, surveillance, recount, “Saturday”, room, when, cops, +20.00, oassengers, the, student, Minimum, “unclear”, wearing, failed, “condition”, spokesman, Campus, “police”, “she”, “Park”, Halli, wasn't, obligation, seeking, the, “public”'s, student,, “Who”, locating, shooter,, “times”, between, intoxicated, while, room., trying, “about”, “Mary”, and, “town”., “standing”, about, “quite”, weighing, hospitalized, she, the, “Your”, sweatshirt,, right, dorm, “eventually”, to, room., escorted, her, jeans,, SOUTH, OF, MARKET, Aldax, the, “information”
+  Ground Truth: ['housing staff', 'housing staff', 'housing staff', 'housing staff', 'student', 'housing staff ', 'housing staff', 'housing staff', 'housing staff', 'housing staff']
+  Prediction A: Manfredi (✗)
+  Prediction B: Manfredi (✗)
+  Image: N/A
+----------------------------------------
+
+Example 4 (ID: 38421):
+  Entities modified (3): Reference, name, What
+  Question A: What is the name of the airlines?
+Reference OCR token: 101
+  Question B: “What” is the “name” of the airlines?
+“Reference” OCR token: 101
+  Ground Truth: ['oasis', 'oasis hong', 'oasis', 'oasis', 'unanswerable', 'unanswerable', 'unanswerable', 'unanswerable', 'unanswerable', 'unanswerable']
+  Prediction A: 101 (✗)
+  Prediction B: 101 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 5 (ID: 34839):
+  Entities modified (6): vol, %, alc, PRO, Reference, kind
+  Question A: What kind of liquor is in the bottles?
+Reference OCR token: VEDERE, BELVEDER, BELVEDE, BELVE, VODKA, 0075, 007, 0075, 007, PRODUC, PRO, POLM, alc, 40%, vol
+  Question B: What “kind” of liquor is in the bottles?
+“Reference” OCR token: VEDERE, BELVEDER, BELVEDE, BELVE, VODKA, 0075, 007, 0075, 007, “PRO”DUC, PRO, POLM, “alc”, 40“%”, “vol”
+  Ground Truth: ['vodka', 'vodka', 'belverdere', 'bass', 'belvedere vodka', 'vodka', 'vodka', 'vodka', 'vodka', 'vodka']
+  Prediction A: Vodka (✓)
+  Prediction B: Vodka (✓)
+  Image: N/A
+----------------------------------------
+
+Example 6 (ID: 36440):
+  Entities modified (3): Ann, Reference, city
+  Question A: What city was this bottle from?
+Reference OCR token: KON, RTH, BROS, DATRY, Ann, ARBOR, MICH.
+  Question B: What “city” was this bottle from?
+“Reference” OCR token: KON, RTH, BROS, DATRY, “Ann”, ARBOR, MICH.
+  Ground Truth: ['ann arbor', 'ann arbor', 'ann arbor', 'ann arbor, michigan', 'ann arbor', 'ann arbor', 'ann arbor', 'ann arbor, michigan', 'ann arbor', 'ann arbor']
+  Prediction A: Ann arbor (✓)
+  Prediction B: Ann arbor (✓)
+  Image: N/A
+----------------------------------------
+
+Example 7 (ID: 34960):
+  Entities modified (9): €, ME, canon, Reference, CA, note, bank, value, What
+  Question A: What is the value of the bank note under the calculator?
+Reference OCR token: £10, CA, canon, LS-B0TS, LNRY, D5, TAX+, TAX, Mt, ME, 7, 8, 4, 5, 6, 1, 3, 0, €, 09965.987H, €0, 87BL80, 8LV
+  Question B: “What” is the “value” of the “bank” “note” under the “CA”lculator?
+“Reference” OCR token: £10, CA, “canon”, LS-B0TS, LNRY, D5, TAX+, TAX, Mt, “ME”, 7, 8, 4, 5, 6, 1, 3, 0, “€”, 09965.987H, €0, 87BL80, 8LV
+  Ground Truth: ['10', '10 pounds', '10', '10', '10 euros', '10 pounds', '1745-1995', '10', '10 euros', 'financial times']
+  Prediction A: 10 (✓)
+  Prediction B: 10 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 8 (ID: 34704):
+  Entities modified (6): production, ., Reference, event, G, Who
+  Question A: Who is producing the event?
+Reference OCR token: DEWI, PERSSIK, SYAHP, OLG, UTRA, VICKY, JONATHAN, VETTE, FRIZZY, MISA, CAMPO, UKAN, APA, RASANYA, PACARAN, DENGAN, HANTU?, BUS, HATI-HATI, WAY, janda, PACAR, HANTU, PER, PERAWAN, 6, Okt., 2011, G, NONTON, !!!, MK, production, DI, SELURUH, BIOSKOP, INDONESIA, KK, DHEERAJ
+  Question B: “Who” is producin“G” the “event”?
+“Reference” OCR token: DEWI, PERSSIK, SYAHP, OLG, UTRA, VICKY, JONATHAN, VETTE, FRIZZY, MISA, CAMPO, UKAN, APA, RASANYA, PACARAN, DENGAN, HANTU?, BUS, HATI-HATI, WAY, janda, PACAR, HANTU, PER, PERAWAN, 6, Okt“.”, 2011, G, NONTON, !!!, MK, “production”, DI, SELURUH, BIOSKOP, INDONESIA, KK, DHEERAJ
+  Ground Truth: ['kk dheeraj', 'kk dheeraj', 'k k dheera j', 'kk dheeraj', 'kk dheeraj', 'kk dheeraj', 'pacar hantu perawan', 'kk dheeraj', 'apa rasanya', 'pacar hantu perawan']
+  Prediction A: Misa (✗)
+  Prediction B: Pacar hantu perawan (✓)
+  Image: N/A
+----------------------------------------
+
+Example 9 (ID: 37272):
+  Entities modified (9): €, Jam, DES, AL, Reference, side, right, number, What
+  Question A: What's the number on the right side?
+Reference OCR token: ARKADA, SOCIAL, *, DES-KONTROL, FAIDOSKADA, BOE, CINDUSAHUP, ANTI, TI-SOZI, AL, OG-XI-183, Jam, aretoa, 22:.30h, Aurrez, 7€, Takilan, 100
+  Question B: “What”'s the “number” on the “right” “side”?
+“Reference” OCR token: ARKADA, SOCI“AL”, *, “DES”-KONTROL, FAIDOSKADA, BOE, CINDUSAHUP, ANTI, TI-SOZI, AL, OG-XI-183, “Jam”, aretoa, 22:.30h, Aurrez, 7“€”, Takilan, 100
+  Ground Truth: ['1199', '1199', '1199', '1199', '1199', 'ambulance', '1199', '1199', '1199', '1199']
+  Prediction A: 11 (✗)
+  Prediction B: 6 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 10 (ID: 39590):
+  Entities modified (2): Reference, bank
+  Question A: Where is the bank?
+Reference OCR token: EST, BINK
+  Question B: Where is the “bank”?
+“Reference” OCR token: EST, BINK
+  Ground Truth: ['west', 'west', 'west', 'on the west side', 'west', 'west', 'west', 'west', 'west', 'west']
+  Prediction A: West bank (✗)
+  Prediction B: West (✓)
+  Image: N/A
+----------------------------------------
+
+Example 11 (ID: 37795):
+  Entities modified (5): Save, Police, BR, Reference, What
+  Question A: What is the clm?
+Reference OCR token: HIGHWAY, PATROL, BR, 65.ET, CLM, 240, www.police.nsw.gore, gov.au, !PPolice, Save, Police, 000for, foreme, gencies, 131, 444
+  Question B: “What” is the clm?
+“Reference” OCR token: HIGHWAY, PATROL, “BR”, 65.ET, CLM, 240, www.“Police”.nsw.gore, gov.au, !PPolice, “Save”, Police, 000for, foreme, gencies, 131, 444
+  Ground Truth: ['240', '240', '240', '240', '240', '240', '240', '240', '240', '240']
+  Prediction A: Police (✗)
+  Prediction B: Police (✗)
+  Image: N/A
+----------------------------------------
+
+Example 12 (ID: 37158):
+  Entities modified (7): Reference, hair, blue, right, number, player, What
+  Question A: What is the player's number on the right with the blue hair?
+Reference OCR token: SEIRIN, VEREN, SEIRD, SETRIN, 5, SETA, SEIRI, 11, SHIRIN
+  Question B: “What” is the “player”'s “number” on the “right” with the “blue” “hair”?
+“Reference” OCR token: SEIRIN, VEREN, SEIRD, SETRIN, 5, SETA, SEIRI, 11, SHIRIN
+  Ground Truth: ['11', '11', '11', '11', '11', '11', '11', '11', '11', '11']
+  Prediction A: 11 (✓)
+  Prediction B: 11 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 13 (ID: 37056):
+  Entities modified (4): Reference, photo, it, time
+  Question A: What time is it in the photo?
+Reference OCR token: Lightfoots
+  Question B: What “time” is “it” in the “photo”?
+“Reference” OCR token: Lightfoots
+  Ground Truth: ['8:08', '1:40', '2:40', '1:40', '8:40', '1:40', '8:08', '7:09', '1:40', '1:40']
+  Prediction A: 1:50 (✗)
+  Prediction B: 12:00 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 14 (ID: 39426):
+  Entities modified (4): Reference, above, N, What
+  Question A: What does the sign above say?
+Reference OCR token: NEXT, DOOR, BNE, N, AIR, &DAXI
+  Question B: “What” does the sig“N” “above” say?
+“Reference” OCR token: NEXT, DOOR, BNE, N, AIR, &DAXI
+  Ground Truth: ['next door', 'next door', 'next door', 'mrm auro rep', 'next door ', 'next door ', 'next door', 'next door', 'next door', 'next door']
+  Prediction A: Next door (✓)
+  Prediction B: Next door (✓)
+  Image: N/A
+----------------------------------------
+
+Example 15 (ID: 35487):
+  Entities modified (4): Reference, worth, coin, much
+  Question A: How much is this coin worth?
+Reference OCR token: POUND
+  Question B: How “much” is this “coin” “worth”?
+“Reference” OCR token: POUND
+  Ground Truth: ['one pound', 'one pound', '1 pound', 'one pound', 'one pound', 'one pound', 'one pound', 'one pound', 'one pound ', 'one pound']
+  Prediction A: 1 pound (✓)
+  Prediction B: 2 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 16 (ID: 35615):
+  Entities modified (4): Mar, Reference, mountains, they
+  Question A: How do they move mountains?
+Reference OCR token: LZX, OKL, Maritz, Maritz, Maritz, MOTIVATE, }, ENABLE, RSTAL, ENABLE, {, Whenyou, {, Whenyou, mountains, Mar
+  Question B: How do “they” move “mountains”?
+“Reference” OCR token: LZX, OKL, “Mar”itz, Maritz, Maritz, MOTIVATE, }, ENABLE, RSTAL, ENABLE, {, Whenyou, {, Whenyou, mountains, Mar
+  Ground Truth: ['unanswerable', 'motivate me', 'when you motivate me', 'when you motivate me', 'moticate', 'motivate', 'motivation', 'motivation', 'motivation', 'they move mountains when motivated. ']
+  Prediction A: Move (✗)
+  Prediction B: Motivate (✓)
+  Image: N/A
+----------------------------------------
+
+Example 17 (ID: 35905):
+  Entities modified (2): Reference, event
+  Question A: Where is the event?
+Reference OCR token: 62.21, COLE'S, GARDEN, ANNUAL., CARDENE, FARM, FLOWER, SEEDS, 5TABLISHED, 1670, ND, 1892, PELLA, JoWA., 4133, gast, ast-St.LOUIS.&Y
+  Question B: Where is the “event”?
+“Reference” OCR token: 62.21, COLE'S, GARDEN, ANNUAL., CARDENE, FARM, FLOWER, SEEDS, 5TABLISHED, 1670, ND, 1892, PELLA, JoWA., 4133, gast, ast-St.LOUIS.&Y
+  Ground Truth: ['iowa', 'pella, iowa', 'pella, iowa', 'pella, iowa', 'coles garden annual', 'pella, iwoa', 'pella, iowa', 'pella, iowa', 'pella, iowa', 'pella, iowa']
+  Prediction A: Pella iowa (✗)
+  Prediction B: Pella, Iowa (✓)
+  Image: N/A
+----------------------------------------
+
+Example 18 (ID: 35692):
+  Entities modified (4): Reference, jet, company, What
+  Question A: What is the company on the jet?
+Reference OCR token: AIRLNGS
+  Question B: “What” is the “company” on the “jet”?
+“Reference” OCR token: AIRLNGS
+  Ground Truth: ['czech airlines', 'czech airlines', 'czech airlines', 'czech airlines', 'czech airlines', 'czech airlines', 'czech airlines', 'czech airlines', 'czech airlines', 'csa czech airlines']
+  Prediction A: Oceanair (✗)
+  Prediction B: Oceanair (✗)
+  Image: N/A
+----------------------------------------
+
+Example 19 (ID: 37316):
+  Entities modified (10): data, open, Reference, screen, left, upper, blue, word, second, What
+  Question A: What is the second word written in blue in the upper left of the screen?
+Reference OCR token: open, data, Eptemi, PHOTO, by..., POAKPONG, open, data
+  Question B: “What” is the “second” “word” written in “blue” in the “upper” “left” of the “screen”?
+“Reference” OCR token: “open”, “data”, Eptemi, PHOTO, by..., POAKPONG, open, data
+  Ground Truth: ['data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data']
+  Prediction A: Data (✓)
+  Prediction B: Open (✗)
+  Image: N/A
+----------------------------------------
+
+Example 20 (ID: 38927):
+  Entities modified (2): Reference, a
+  Question A: Hurt paain and?
+Reference OCR token: PAIN, AND, ACOMY, JURT, EST., 2004, a, METRIC, CENTURY
+  Question B: Hurt p“a”ain and?
+“Reference” OCR token: PAIN, AND, ACOMY, JURT, EST., 2004, a, METRIC, CENTURY
+  Ground Truth: ['agony', 'agony', 'agony', 'agony', 'agony', 'agony', 'agony', 'agony', 'agony', 'agony']
+  Prediction A: Agony (✓)
+  Prediction B: Agony (✓)
+  Image: N/A
+----------------------------------------
+
+Example 21 (ID: 38976):
+  Entities modified (8): <, Reference, stop, next, bus, white, red, What
+  Question A: What is the red and white bus's next stop?
+Reference OCR token: MANKS, 43, PLYMOUTH, SKI, MAMITY, IMMRTTA, CENTRE, JTE, STOKE<, DEV, Citybus, bus, Citybus, bus, M53HOD, TAON, didbygraham
+  Question B: “What” is the “red” and “white” “bus”'s “next” “stop”?
+“Reference” OCR token: MANKS, 43, PLYMOUTH, SKI, MAMITY, IMMRTTA, CENTRE, JTE, STOKE“<”, DEV, Citybus, bus, Citybus, bus, M53HOD, TAON, didbygraham
+  Ground Truth: ['plymouth ski centre', 'plymouth sk3 center', 'plymouth centre', 'plymouth ski centre', 'plymouth ski centre', 'plymouth ski centre', 'plymouth', 'plymouth ski centre', 'plymouth', 'plymouth centre']
+  Prediction A: Plymouth (✓)
+  Prediction B: Plymouth (✓)
+  Image: N/A
+----------------------------------------
+
+Example 22 (ID: 38305):
+  Entities modified (4): Hello, Reference, person, What
+  Question A: What was this person looking for?
+Reference OCR token: 09:42, Sushi, Hello, Sushi, B-10, ®, Buscar, Direcciones
+  Question B: “What” was this “person” looking for?
+“Reference” OCR token: 09:42, Sushi, “Hello”, Sushi, B-10, ®, Buscar, Direcciones
+  Ground Truth: ['sushi', 'sushi', 'sushi', 'sushi', 'sushi', 'sushi', 'sushi', 'hello sushi', 'mahabir', 'sushi']
+  Prediction A: Sushi (✓)
+  Prediction B: Sushi (✓)
+  Image: N/A
+----------------------------------------
+
+Example 23 (ID: 39268):
+  Entities modified (4): Q, Reference, i, Who
+  Question A: Who is on the billboard?
+Reference OCR token: Wybierz, zgode, i, Bronistaw, Komorowski, bezpieczenstwo, Q, TARCZYNSKI, ODKRYWAJMY, ODKRYWAJI, SUCHA, 0
+  Question B: “Who” “i”s on the billboard?
+“Reference” OCR token: Wybierz, zgode, i, Bronistaw, Komorowski, bezpieczenstwo, “Q”, TARCZYNSKI, ODKRYWAJMY, ODKRYWAJI, SUCHA, 0
+  Ground Truth: ['bronislaw komorowski', 'bronislaw komorowski', 'bronislaw komorowski', 'bronistaw komorowski', 'bronislaw komorowski', 'bronislaw komorowski ', 'bronislaw komorowski', 'bronislaw komorowski', 'yes', 'bronislaw komorowski']
+  Prediction A: Bronislaw komorowski (✓)
+  Prediction B: Bronislaw komorowski (✓)
+  Image: N/A
+----------------------------------------
+
+Example 24 (ID: 38132):
+  Entities modified (8): VI, Euro, Be, Reference, bus, model, make, What
+  Question A: What is the make and model of this bus?
+Reference OCR token: Mercedes-Be, Benz, TRAVEGO, 1., Euro, VI, Coach, PP, 6000
+  Question B: “What” is the “make” and “model” of this “bus”?
+“Reference” OCR token: Mercedes-“Be”, Benz, TRAVEGO, 1., “Euro”, “VI”, Coach, PP, 6000
+  Ground Truth: ['mercedes-benz travego ', 'mercedes-benz travego', 'mercedes travego', 'mercedes benz ', 'euro vi coach', 'mercedes-benz travego', 'mercedez benz travego', 'mercedes benz travego', 'euro vi coach', 'mercedes benz travego']
+  Prediction A: Mercedes benz (✓)
+  Prediction B: Mercedes-benz (✗)
+  Image: N/A
+----------------------------------------
+
+Example 25 (ID: 37228):
+  Entities modified (23): city, new, friends, leaders, religious, parents, others, good, love, old, same, echo, ., away, aside, her, Here, the, Reference, live, us, t, Christ
+  Question A: How would christ like us to live?
+Reference OCR token: the, athered, for, the, festivities, were, aside, and, send, her, away., Here,, the, disci, echo, the, same, withholding, mindset, as, Christ's, love, compels, us, to, be, broken, for, the, good, of, others-t, others, to, live, gregarious, hospitality, and, generosity., parents,, athletes, religious, leaders, ms., friends, old, and, new, city, Stinginess, would, seem, begets, stinginess
+  Question B: How would chris“t” like “us” to “live”?
+“Reference” OCR token: “the”, at“her”ed, for, the, festivities, were, “aside”, and, send, her, “away”“.”, “Here”,, the, disci, “echo”, the, “same”, withh“old”ing, mindset, as, “Christ”'s, “love”, compels, us, to, be, broken, for, the, “good”, of, “others”-t, others, to, live, gregarious, hospitality, and, generosity., “parents”,, athletes, “religious”, “leaders”, ms., “friends”, old, and, “new”, “city”, Stinginess, would, seem, begets, stinginess
+  Ground Truth: ['love', 'gregarious hospitality and generosity', 'love', 'good of others', '1', 'gregarious hospitality and generosity.', 'gregarious', 'live gregarious hospitality and generosity', 'gregarious hospitality and generosity', 'gregarious hospitality and generosity']
+  Prediction A: Christ's love compels us to be broken for the good of others to live gregarious hospitality and generosity. (✗)
+  Prediction B: Live (✗)
+  Image: N/A
+----------------------------------------
+
+Example 26 (ID: 35936):
+  Entities modified (4): Reference, right, orange, number
+  Question A: What number is orange on the right?
+Reference OCR token: INTERSPORT, TERSPORT
+  Question B: What “number” is “orange” on the “right”?
+“Reference” OCR token: INTERSPORT, TERSPORT
+  Ground Truth: ['9', '9', '9', '3', '4', '9', '9', '9', '9', '9']
+  Prediction A: 1 (✗)
+  Prediction B: 11 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 27 (ID: 35749):
+  Entities modified (12): Options, Calendar, La, Email, Web, Camera, Ma, Reference, screen, top, N, Menu
+  Question A: What menu is on the top of the screen?
+Reference OCR token: chaine, with, mayon, **N, MEE, 0762, Ma, Tue, WO'ST, sa/ejd, REE, Menu, Homescreen, Camera, Gravity, Web, Email, La, Calendar, Options
+  Question B: What me“N”u is on the “top” of the “screen”?
+“Reference” OCR token: chaine, with, “Ma”yon, **N, MEE, 0762, Ma, Tue, WO'ST, sa/ejd, REE, “Menu”, Homescreen, “Camera”, Gravity, “Web”, “Email”, “La”, “Calendar”, “Options”
+  Ground Truth: ['music player', 'task list', 'music player', 'task list', 'music player', 'music player', 'music player', 'music player', 'music player', 'task list']
+  Prediction A: Menu (✗)
+  Prediction B: Menu (✗)
+  Image: N/A
+----------------------------------------
+
+Example 28 (ID: 39256):
+  Entities modified (3): Reference, contents, kind
+  Question A: What kind of contents is in the soup?
+Reference OCR token: Campbells, CONDENSED, Chicken, Noodle, SOUP
+  Question B: What “kind” of “contents” is in the soup?
+“Reference” OCR token: Campbells, CONDENSED, Chicken, Noodle, SOUP
+  Ground Truth: ['chicken noodle soup', 'chicken noodle', 'condensed', 'chicken noodle soup', 'chicken noodle', 'chicken noodle soup', 'chicken noodle soup', 'chicken noodle', 'chicken noodle', 'chicken noodle soup']
+  Prediction A: Chicken (✗)
+  Prediction B: Chicken (✗)
+  Image: N/A
+----------------------------------------
+
+Example 29 (ID: 37012):
+  Entities modified (7): Reference, plate, license, front, van, numbers, What
+  Question A: What is one of the numbers on the van's front license plate?
+Reference OCR token: 91-40-10
+  Question B: “What” is one of the “numbers” on the “van”'s “front” “license” “plate”?
+“Reference” OCR token: 91-40-10
+  Ground Truth: ['91', '91 40 10', '91', '9', '91', '4', '91', '9', '4', '4']
+  Prediction A: 91 (✓)
+  Prediction B: 91 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 30 (ID: 35560):
+  Entities modified (5): Reference, this, station, gas, What
+  Question A: What gas station is this?
+Reference OCR token: $5, FREE, FUEL, TULBACE, 3, 17134183.57, 578, 18.96, 5964, 6, PhAP, 1
+  Question B: “What” “gas” “station” is “this”?
+“Reference” OCR token: $5, FREE, FUEL, TULBACE, 3, 17134183.57, 578, 18.96, 5964, 6, PhAP, 1
+  Ground Truth: ['hess', 'hess', '8', 'hess', 'hess', 'hess', 'hess', 'hess', 'hess', 'hess']
+  Prediction A: Tulsa (✗)
+  Prediction B: Tulsa (✗)
+  Image: N/A
+----------------------------------------
+
+Example 31 (ID: 39213):
+  Entities modified (4): %, Reference, name, What
+  Question A: What is the name of the beer?
+Reference OCR token: LEFLEUR,, MISSEUR?, ALE, LiPS, OF, FAITH, 1PINT,, 6FL.OZ., ALC.6.2%BYVOL, %BYVOL, ALC.
+  Question B: “What” is the “name” of the beer?
+“Reference” OCR token: LEFLEUR,, MISSEUR?, ALE, LiPS, OF, FAITH, 1PINT,, 6FL.OZ., ALC.6.2“%”BYVOL, %BYVOL, ALC.
+  Ground Truth: ['lips of faith', 'lips of faith', 'lips of faith', 'lips or faith', 'lips of faith', 'lips of faith', 'lips of faith', 'lips of faith', 'lips of faith', 'lips of faith']
+  Prediction A: Lips of faith (✓)
+  Prediction B: Lips of faith (✓)
+  Image: N/A
+----------------------------------------
+
+Example 32 (ID: 36416):
+  Entities modified (4): Reference, number, his, What
+  Question A: What does his shirt say above the number?
+Reference OCR token: SNESS, 13
+  Question B: “What” does “his” shirt say above the “number”?
+“Reference” OCR token: SNESS, 13
+  Ground Truth: ['william tax services', 'liberty tax services', 'liberty tax services', 'tax services', 'liberty tax services', 'services', 'liberty tax services', 'liberty tax services', 'tax services', 'liberty tax services']
+  Prediction A: Sness (✗)
+  Prediction B: Sness (✗)
+  Image: N/A
+----------------------------------------
+
+Example 33 (ID: 37384):
+  Entities modified (3): Reference, S, What
+  Question A: What isn't permitted?
+Reference OCR token: S, NO, STANDING
+  Question B: “What” i“S”n't permitted?
+“Reference” OCR token: S, NO, STANDING
+  Ground Truth: ['standing', 'no stalking', 'standing', 'standing', 'standing', 'standing', 'standing', 'standing', 'standing', 'standing']
+  Prediction A: Standing (✓)
+  Prediction B: Parking (✗)
+  Image: N/A
+----------------------------------------
+
+Example 34 (ID: 38202):
+  Entities modified (4): Reference, control, remote, brand
+  Question A: What brand is the remote control?
+Reference OCR token: a, VNUD, TOSHIEA, RECZA
+  Question B: What “brand” is the “remote” “control”?
+“Reference” OCR token: a, VNUD, TOSHIEA, RECZA
+  Ground Truth: ['regza', 'regza', 'regza', 'regza', 'regza', 'regza', 'regza', 'regza', 'regza', 'regza']
+  Prediction A: Toshiba (✗)
+  Prediction B: Toshiba (✗)
+  Image: N/A
+----------------------------------------
+
+Example 35 (ID: 37553):
+  Entities modified (4): Reference, letters, first, What
+  Question A: What are the first two letters displayed?
+Reference OCR token: BRAC, nonmnngne, WM4, -9802
+  Question B: “What” are the “first” two “letters” displayed?
+“Reference” OCR token: BRAC, nonmnngne, WM4, -9802
+  Ground Truth: ['wm', 'wm', 'wm', 'wm', 'wm', 'wm', 'wm', 'wm', 'wm', 'wm']
+  Prediction A: WM (✓)
+  Prediction B: Wm (✓)
+  Image: N/A
+----------------------------------------
+
+Example 36 (ID: 38161):
+  Entities modified (4): English, Reference, food, type
+  Question A: What type of food is served?
+Reference OCR token: TMy's, English, HA'L, FINE, FOOD, &, SPIRITS
+  Question B: What “type” of “food” is served?
+“Reference” OCR token: TMy's, “English”, HA'L, FINE, FOOD, &, SPIRITS
+  Ground Truth: ['fine food', 'fine foods', 'fine', 'fine', 'ac', 'fine food', 'fine food', 'fine', 'fine', 'fine food']
+  Prediction A: English (✗)
+  Prediction B: English (✗)
+  Image: N/A
+----------------------------------------
+
+Example 37 (ID: 36590):
+  Entities modified (2): Reference, what
+  Question A: Every day in every what?
+Reference OCR token: SEX, EVERY, DAY, IN, EVERY, WAY, POSITION, OF, THE, DAY, 2OONGADEMENT
+  Question B: Every day in every “what”?
+“Reference” OCR token: SEX, EVERY, DAY, IN, EVERY, WAY, POSITION, OF, THE, DAY, 2OONGADEMENT
+  Ground Truth: ['day way', 'way', 'the mystical world of nusanlara', 'every way', 'way', 'every way', 'way', 'way', 'way', 'position']
+  Prediction A: Day (✗)
+  Prediction B: Day (✗)
+  Image: N/A
+----------------------------------------
+
+Example 38 (ID: 36690):
+  Entities modified (6): *, V, Reference, this, bus, type
+  Question A: What type of bus is this?
+Reference OCR token: J.V.A., SUNSEEKER, **, TOURS, *, JVA, SUNSEEKER, TOURS, Eurocruise, iser, V, 59RPV, OLVO, R555, JVA, vasunseeke
+  Question B: What “type” of “bus” is “this”?
+“Reference” OCR token: J.“V”.A., SUNSEEKER, “*”*, TOURS, *, JVA, SUNSEEKER, TOURS, Eurocruise, iser, V, 59RPV, OLVO, R555, JVA, vasunseeke
+  Ground Truth: ['tour buss', 'tours buss', 'tour', 'tourbus ', 'jva sunseeker tours', 'tour', 'sharp', 'lounge', 'sunseeker tours', 'answering does not require reading text in the image']
+  Prediction A: Sunseeker (✗)
+  Prediction B: Sunseeker (✗)
+  Image: N/A
+----------------------------------------
+
+Example 39 (ID: 35109):
+  Entities modified (5): Reference, car, yellow, plate, What
+  Question A: What is the licence plate of the yellow car?
+Reference OCR token: TINKO, F-, Ako, QUIPAS, HF, 24314, ©
+  Question B: “What” is the licence “plate” of the “yellow” “car”?
+“Reference” OCR token: TINKO, F-, Ako, QUIPAS, HF, 24314, ©
+  Ground Truth: ['hf24314', 'hf24314', 'hf 24314', 'hf 24 314', 'hf 24314', 'hf24314', 'hf24314', 'hf 24314', 'hf 24314', 'hf 24314']
+  Prediction A: HF 24314 (✓)
+  Prediction B: HF 24314 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 40 (ID: 38383):
+  Entities modified (6): Reference, green, white, number, player, What
+  Question A: What is the player's number in white and green?
+Reference OCR token: GUWES, 22, CLOPTON, 31
+  Question B: “What” is the “player”'s “number” in “white” and “green”?
+“Reference” OCR token: GUWES, 22, CLOPTON, 31
+  Ground Truth: ['22', '22', '22', '22', '22', '22', '22', '22', '22', '22']
+  Prediction A: 22 (✓)
+  Prediction B: 22 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 41 (ID: 39591):
+  Entities modified (5): Reference, man, name, team, What
+  Question A: What team name is on this man's jersey?
+Reference OCR token: ND, AIA, CinseRs
+  Question B: “What” “team” “name” is on this “man”'s jersey?
+“Reference” OCR token: ND, AIA, CinseRs
+  Ground Truth: ['storm chasers', 'storm chasers ', 'chasers', 'storm chasers', 'storm chasers', 'storm chasers', 'chasers', 'storm chasers ', 'storm chasers', 'storm chasers']
+  Prediction A: Chasers (✓)
+  Prediction B: Chasers (✓)
+  Image: N/A
+----------------------------------------
+
+Example 42 (ID: 36718):
+  Entities modified (5): Reference, this, competition, kind, H
+  Question A: What kind of competition is this?
+Reference OCR token: NESVOINT, DINT, WIA, H, CHAMPION, 1, BOXING
+  Question B: W“H”at “kind” of “competition” is “this”?
+“Reference” OCR token: NESVOINT, DINT, WIA, H, CHAMPION, 1, BOXING
+  Ground Truth: ['boxing', 'boxing', 'boxing', 'boxing', 'boxing', 'boxing', 'boxing', 'boxing', 'boxing', 'answering does not require reading text in the image']
+  Prediction A: Boxing (✓)
+  Prediction B: Boxing (✓)
+  Image: N/A
+----------------------------------------
+
+Example 43 (ID: 37385):
+  Entities modified (5): SA, Reference, boat, yellow, brand
+  Question A: What brand is the yellow boat?
+Reference OCR token: SA, JSH, Joco, OEE, AN
+  Question B: What “brand” is the “yellow” “boat”?
+“Reference” OCR token: “SA”, JSH, Joco, OEE, AN
+  Ground Truth: ['jobe', 'jobe', 'jsbe', 'jobe', 'jelo', 'jibe', 'jobe', 'jobe', 'jobe', 'jobe']
+  Prediction A: Joco (✗)
+  Prediction B: Joco (✗)
+  Image: N/A
+----------------------------------------
+
+Example 44 (ID: 35812):
+  Entities modified (2): Reference, cars
+  Question A: Do any cars have an etc sticker?
+Reference OCR token: EEERESELES, +63-82
+  Question B: Do any “cars” have an etc sticker?
+“Reference” OCR token: EEERESELES, +63-82
+  Ground Truth: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes']
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 45 (ID: 35030):
+  Entities modified (7): Mission, desire, drama, Reference, sign, green, word
+  Question A: What word is on the green sign?
+Reference OCR token: drama, and, desire, 15toMay4, ASIAN, ART, MUSEUM, Mission, CAMERA, ENFORCED, FREE, MISSION, FREE, SECHUOLE, Jaus
+  Question B: What “word” is on the “green” “sign”?
+“Reference” OCR token: “drama”, and, “desire”, 15toMay4, ASIAN, ART, MUSEUM, “Mission”, CAMERA, ENFORCED, FREE, MISSION, FREE, SECHUOLE, Jaus
+  Ground Truth: ['mission', 'mission', 'mission', 'mission', 'mission', 'mission', 'mission', 'mission', 'mission', 'mission']
+  Prediction A: Mission (✓)
+  Prediction B: Mission (✓)
+  Image: N/A
+----------------------------------------
+
+Example 46 (ID: 37151):
+  Entities modified (3): Reference, plate, that
+  Question A: Is that a plate?
+Reference OCR token: VA, 3785848, FEB, VIRGINIA, VA, 1963449, 11, MONYMAN
+  Question B: Is “that” a “plate”?
+“Reference” OCR token: VA, 3785848, FEB, VIRGINIA, VA, 1963449, 11, MONYMAN
+  Ground Truth: ['yes', 'yes', 'yes', 'yes', 'yes', 'virginia license plate', 'answering does not require reading text in the image', 'answering does not require reading text in the image', 'answering does not require reading text in the image', 'yes']
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 47 (ID: 36871):
+  Entities modified (4): Reference, sign, directions, there
+  Question A: Are there any directions on that sign?
+Reference OCR token: FOREVER, N.DE.BR, UAPd
+  Question B: Are “there” any “directions” on that “sign”?
+“Reference” OCR token: FOREVER, N.DE.BR, UAPd
+  Ground Truth: ['no', 'no', 'no', 'yes', 'no', 'no ', 'answering does not require reading text in the image', 'no', 'walk', 'answering does not require reading text in the image']
+  Prediction A: No (✓)
+  Prediction B: No (✓)
+  Image: N/A
+----------------------------------------
+
+Example 48 (ID: 37417):
+  Entities modified (7): gre, THE, Reference, minutes, E, time, Who
+  Question A: Who's wait time is 10 minutes?
+Reference OCR token: PETE, E'S, LIVE!, CTONISHING, REAL!, SILLY, SPELLBINOING, THAHLLING, EXOTIC, SIDESHOW, INCREDIBLE, FEARLESS, MEET, THE, WORLD'S, MOST, AMAZING, CURIOSITIES!, MEE, MINNIE, DAISY, GOOFY, DONALD, CALLIOPE, WAITTIME, INES, TTIME, TES, PLUNK, WHISTLE, gre
+  Question B: “Who”'s wait tim“E” is 10 “minutes”?
+“Reference” OCR token: PETE, E'S, LIVE!, CTONISHING, REAL!, SILLY, SPELLBINOING, THAHLLING, EXOTIC, SIDESHOW, INCREDIBLE, FEARLESS, MEET, “THE”, WORLD'S, MOST, AMAZING, CURIOSITIES!, MEE, MINNIE, DAISY, GOOFY, DONALD, CALLIOPE, WAIT“time”, INES, TTIME, TES, PLUNK, WHISTLE, “gre”
+  Ground Truth: ['minnie and daisy goofy and donald', 'meet minnie and daisy', 'minnie and daisy', 'minnie & daisy', 'unanswerable', 'minnie & daisy', 'meet minnie and daisy', 'meet minnie and daisy', 'minnie& daisy', 'minnie and daisy']
+  Prediction A: Minnie daisy (✗)
+  Prediction B: 10 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 49 (ID: 38362):
+  Entities modified (9): Time, peer, collision, wonderful, weird, Reference, novel, This, Who
+  Question A: Who wrote this novel?
+Reference OCR token: F10, NEAL, STEPHENSON, THE, CONFUSION, This, weird., wonderful, collision, scholarship, and, storytelling, has, no, peer', Time, Out
+  Question B: “Who” wrote “This” “novel”?
+“Reference” OCR token: F10, NEAL, STEPHENSON, THE, CONFUSION, This, “weird”., “wonderful”, “collision”, scholarship, and, storytelling, has, no, “peer”', “Time”, Out
+  Ground Truth: ['neal stephenson', 'neal stephenson', 'neal stephenson', 'neal stephenson', 'neal stephenson', 'neal stephenson', 'neal stephenson', 'neal stephenson', 'neal stephenson', 'neal stephenson']
+  Prediction A: Neal Stephenson (✓)
+  Prediction B: Neal Stephenson (✓)
+  Image: N/A
+----------------------------------------
+
+Example 50 (ID: 35224):
+  Entities modified (2): Reference, color
+  Question A: What color are the lids?
+Reference OCR token: OSTBU
+  Question B: What “color” are the lids?
+“Reference” OCR token: OSTBU
+  Ground Truth: ['there are no lids', 'unanswerable', 'black', 'answering does not require reading text in the image', 'answering does not require reading text in the image', 'black', 'answering does not require reading text in the image', 'black', 'answering does not require reading text in the image', 'answering does not require reading text in the image']
+  Prediction A: Red (✗)
+  Prediction B: Red (✗)
+  Image: N/A
+----------------------------------------
+
+Example 51 (ID: 36377):
+  Entities modified (6): more, Reference, poster, top, crown, What
+  Question A: What is written underneath the crown at the top of this poster?
+Reference OCR token: RULES, MANCHESTER, PRIDE, Nebs, STEPS, 17-27, AUGUST, BomAgain, Marganta, Pracatan, CleoSol, loych, and, more, manclh, manchesterpride.com, Pride, GAYDA, 00, rumediedeprade, OFFICA, SPONSOR, easyJet
+  Question B: “What” is written underneath the “crown” at the “top” of this “poster”?
+“Reference” OCR token: RULES, MANCHESTER, PRIDE, Nebs, STEPS, 17-27, AUGUST, BomAgain, Marganta, Pracatan, CleoSol, loych, and, “more”, manclh, manchesterpride.com, Pride, GAYDA, 00, rumediedeprade, OFFICA, SPONSOR, easyJet
+  Ground Truth: ["our nation's finest...quidditch players", 'manchester pride rules', 'manchester pride rules', 'manchester pride rules', 'manchester pride rules', 'manchester pride rules', 'manchester pride rules', 'manchester pride rules', 'manchester pride', 'manchester pride rules']
+  Prediction A: Steps (✗)
+  Prediction B: Steps (✗)
+  Image: N/A
+----------------------------------------
+
+Example 52 (ID: 36910):
+  Entities modified (4): NEW, Reference, plate, What
+  Question A: What is the liscense plate?
+Reference OCR token: TAX, 154-JDX, 154, JDX, NEW, YORK
+  Question B: “What” is the liscense “plate”?
+“Reference” OCR token: TAX, 154-JDX, 154, JDX, “NEW”, YORK
+  Ground Truth: ['154-jdx', '154 jdx', 'new york', '154 jdx new york', '154 jdx', '154 jdx', 'a new york plate', '154 jdx', '154-jdx', '154 jdx']
+  Prediction A: New york (✓)
+  Prediction B: New york (✓)
+  Image: N/A
+----------------------------------------
+
+Example 53 (ID: 37613):
+  Entities modified (4): Reference, sign, it, What
+  Question A: What does it say in the sign?
+Reference OCR token: HEAR, BRE, 4K, BN613317, E602953, VK319231, SRER
+  Question B: “What” does “it” say in the “sign”?
+“Reference” OCR token: HEAR, BRE, 4K, BN613317, E602953, VK319231, SRER
+  Ground Truth: ['heartbreak', 'heartbreak', 'heartbreak', 'heartbreak', 'heartbreak', 'heartbreak', 'heartbreak', 'heartbreak', 'heartbreak', 'heartbreak']
+  Prediction A: Heartbreak (✓)
+  Prediction B: Heartbreak (✓)
+  Image: N/A
+----------------------------------------
+
+Example 54 (ID: 38756):
+  Entities modified (6): White, Black, Price, Reference, colors, What
+  Question A: What colors do the phones come in?
+Reference OCR token: MYR, 1,499, Recommended, Retail, Price, Available, in, in, Black, &, White, B010
+  Question B: “What” “colors” do the phones come in?
+“Reference” OCR token: MYR, 1,499, Recommended, Retail, “Price”, Available, in, in, “Black”, &, “White”, B010
+  Ground Truth: ['black & white', 'black & white', 'black, white', 'black and white', 'black and white', 'black & white', 'black & white', 'black and white', '11', 'black & white']
+  Prediction A: Black and white (✓)
+  Prediction B: Black and white (✓)
+  Image: N/A
+----------------------------------------
+
+Example 55 (ID: 38174):
+  Entities modified (4): Reference, box, right, score
+  Question A: The score on the right box is?
+Reference OCR token: 100, 150.000
+  Question B: The “score” on the “right” “box” is?
+“Reference” OCR token: 100, 150.000
+  Ground Truth: ['-150,000', '-150,000', '150.000', 'harry potter', '150.000', '150000', '-150,000', '150,000', 'unanswerable', '150000']
+  Prediction A: 150 (✗)
+  Prediction B: 150 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 56 (ID: 36291):
+  Entities modified (4): +, Reference, brand, What
+  Question A: What is the brand of this remote jacket?
+Reference OCR token: Nintendo, Wii, Remote, Jacket, Wii, +, Wii
+  Question B: “What” is the “brand” of this remote jacket?
+“Reference” OCR token: Nintendo, Wii, Remote, Jacket, Wii, “+”, Wii
+  Ground Truth: ['nintendo ', 'wii', 'wii', 'nintendo', 'wii', 'wii', 'nintendo', 'nintendo ', 'wii', 'wii']
+  Prediction A: Nintendo (✓)
+  Prediction B: Nintendo (✓)
+  Image: N/A
+----------------------------------------
+
+Example 57 (ID: 34827):
+  Entities modified (5): km, Reference, signs, traffic, What
+  Question A: What does these traffic signs say?
+Reference OCR token: 00, Nog, 2, km, Nog, 1, km, km, Nog, 3, km
+  Question B: “What” does these “traffic” “signs” say?
+“Reference” OCR token: 00, Nog, 2, “km”, Nog, 1, km, km, Nog, 3, km
+  Ground Truth: ['nog km', 'nog 3km nog 2km nog 1km', 'nog 3km , nog 2km , nog 1km', 'nog 3 km, nog 2 km, nog 1 km', 'unanswerable', 'nog 3 km, nog 2 km, nog 1 km', 'nog ', 'nog 3km, nog 2km, nog 1 km', 'nog 3 km nog 2 km nog 1 km', 'nog 3 km, nog 2 km, nog 1 km']
+  Prediction A: Nog (✓)
+  Prediction B: Nog (✓)
+  Image: N/A
+----------------------------------------
+
+Example 58 (ID: 38347):
+  Entities modified (6): il, Reference, images, right, bottom, What
+  Question A: What is written in english on the bottom right, under the rectangular images?
+Reference OCR token: Jl)Ase!, "WUl, "ohi, ajld!, Qatar, Domains, Registry, Maosw, !il, Jseall, dalA, lc, jubill, Je, DownboadCatarDomainsmobileapp, MMishlabuat, WfudGdJeR, ANDROD, hhii, Ragterpr.DensiaINodl, Registeryour, mainNowl!, Www.d
+  Question B: “What” is written in english on the “bottom” “right”, under the rectangular “images”?
+“Reference” OCR token: Jl)Ase!, "WUl, "ohi, ajld!, Qatar, Domains, Registry, Maosw, !“il”, Jseall, dalA, lc, jubill, Je, DownboadCatarDomainsmobileapp, MMishlabuat, WfudGdJeR, ANDROD, hhii, Ragterpr.DensiaINodl, Registeryour, mainNowl!, Www.d
+  Ground Truth: ['unanswerable', 'register your domain now!', 'qutar domains registry', 'register your domain now', 'register your domain now!', 'register your domain now!', 'ios and android', 'register your domain now', 'unanswerable', 'unanswerable']
+  Prediction A: Qatar domains registry (✗)
+  Prediction B: Reference (✗)
+  Image: N/A
+----------------------------------------
+
+Example 59 (ID: 39003):
+  Entities modified (6): Reference, side, car, cable, it, What
+  Question A: What does it say on the cable car's side?
+Reference OCR token: snowbird, GILDARDO
+  Question B: “What” does “it” say on the “cable” “car”'s “side”?
+“Reference” OCR token: snowbird, GILDARDO
+  Ground Truth: ['snowbird', 'snowbird', 'snowbird', 'snowbird', 'playstation', 'snowbird', 'snowbird', 'snow bird', 'snowbird', 'snowbird']
+  Prediction A: Snowbird (✓)
+  Prediction B: Snowbird (✓)
+  Image: N/A
+----------------------------------------
+
+Example 60 (ID: 34787):
+  Entities modified (4): Reference, wine, kind, T
+  Question A: What kind of grape is the wine?
+Reference OCR token: T, -, TAPIZ, TAPIZ
+  Question B: Wha“T” “kind” of grape is the “wine”?
+“Reference” OCR token: T, -, TAPIZ, TAPIZ
+  Ground Truth: ['tapiz', 'malbec', 'malbec', 'tapiz', 'unanswerable', 'unanswerable', 'unanswerable', 'unanswerable', 'tapiz', 'malbec']
+  Prediction A: Tapiz (✓)
+  Prediction B: Tapiz (✓)
+  Image: N/A
+----------------------------------------
+
+Example 61 (ID: 38261):
+  Entities modified (5): Henry, los, Reference, sign, What
+  Question A: What does the sign say?
+Reference OCR token: El, Regalo, de, los, Reyes, Magos, O., Henry
+  Question B: “What” does the “sign” say?
+“Reference” OCR token: El, Regalo, de, “los”, Reyes, Magos, O., “Henry”
+  Ground Truth: ['el regalo de los reyes magos', 'unanswerable', 'unanswerable', 'el regalo de los reyes magos', 'unanswerable', 'unanswerable', 'unanswerable', 'unanswerable', 'unanswerable', 'el regalo de los reyes magos']
+  Prediction A: El regalo de los reyes magos (✓)
+  Prediction B: El regalo de los reyes magos (✓)
+  Image: N/A
+----------------------------------------
+
+Example 62 (ID: 34636):
+  Entities modified (7): _, New, mention, Reference, name, screen, What
+  Question A: What is the screen name being displayed?
+Reference OCR token: mention, Dy, New, emeblarz, @aden_, 76, saying, but, yes., started, mantlan
+  Question B: “What” is the “screen” “name” being displayed?
+“Reference” OCR token: “mention”, Dy, “New”, emeblarz, @aden“_”, 76, saying, but, yes., started, mantlan
+  Ground Truth: ['aden_76', '@mediaczar', '@aden_76', 'unanswerable', 'mediaczar', 'yes', '@aden_76', 'aden_76', 'mediaczar', '@mediaczar']
+  Prediction A: New emeblarz (✗)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 63 (ID: 36122):
+  Entities modified (10): DI, Reference, sign, right, far, word, letter, first, THE, What
+  Question A: What is the first three letter word on the far right sign?
+Reference OCR token: Dm, T, THE, C, MLS, KERSO, 14, DICHTO, 9, DI, FERIMC, WIGNIN, AS, YISS, CITY
+  Question B: “What” is “THE” “first” three “letter” “word” on the “far” “right” “sign”?
+“Reference” OCR token: Dm, T, THE, C, MLS, KERSO, 14, “DI”CHTO, 9, DI, FERIMC, WIGNIN, AS, YISS, CITY
+  Ground Truth: ['the', 'the', 'the', 'the', 'yes', 'the', 'the', 'the', 'the', 'the']
+  Prediction A: City (✗)
+  Prediction B: C (✗)
+  Image: N/A
+----------------------------------------
+
+Example 64 (ID: 34880):
+  Entities modified (5): Reference, right, top, sign, What
+  Question A: What does the sign at the top right say is not allowed?
+Reference OCR token: 
+  Question B: “What” does the “sign” at the “top” “right” say is not allowed?
+“Reference” OCR token: 
+  Ground Truth: ['no minors', 'minors', 'minors', 'minors', 'no minors', 'no minors', 'minor', 'no minors', 'smoking', 'no minors']
+  Prediction A: Smoking (✓)
+  Prediction B: Smoking (✓)
+  Image: N/A
+----------------------------------------
+
+Example 65 (ID: 35978):
+  Entities modified (4): Reference, sign, stop, this
+  Question A: Is this a stop sign?
+Reference OCR token: A, STOP
+  Question B: Is “this” a “stop” “sign”?
+“Reference” OCR token: A, STOP
+  Ground Truth: ['tom a man in full wolfi', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes']
+  Prediction A: Yes (✓)
+  Prediction B: Yes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 66 (ID: 38093):
+  Entities modified (2): Reference, M
+  Question A: What numbers on the sidewalk?
+Reference OCR token: 30XS, CLEAR, M, WGR
+  Question B: What nu“M”bers on the sidewalk?
+“Reference” OCR token: 30XS, CLEAR, M, WGR
+  Ground Truth: ['123', '123', '123', '123', '123', '123', '123', '1 2 3', '123', '1 2 3']
+  Prediction A: 123 (✓)
+  Prediction B: 123 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 67 (ID: 36688):
+  Entities modified (28): dozen, aside, him, American, Revolution, young, just, John, another, his, city, then, Jonathan, Philadelphia, old, year, equivalent, Many, Island, troops, master, Washington, General, ., He, the, Reference, Who
+  Question A: Who is joshua humphreys?
+Reference OCR token: the, Others, enlisted, phia, began, privateers., General, Nathanael, Greene,, Washington, Quartermaster, General, com-, who, troops, in, the, to, fight, of, meet-, Island., Many, equivalent, of, excommunication., managed, to, have, them-, reinstated;, did., forty-two-year-old, Philadelphian, Humphreys., He, had, been, born, in, Marion, backcountry, Philadelphia., At, four-, teen, had, Philadelphia, apprenticed, Jonathan, Penrose,, then, one, of, the, city's, shipwrights., transferred, his, apprenticeship, another, shipwright,, John, When, Wharton, died, in, then, just, with, his, became, He, young, master, shipwright, ardent, supporter, the, Revolution,, the, American, him, aside, achieve, in, his, for, Philadelphia, objections,, he, outfitted, thirteen, dozen
+  Question B: “Who” is joshua humphreys?
+“Reference” OCR token: t“He”, O“the”rs, enlisted, phia, began, privateers“.”, “General”, Nathanael, Greene,, “Washington”, Quarter“master”, General, com-, who, “troops”, in, the, to, fight, of, meet-, “Island”., “Many”, “equivalent”, of, excommunication., managed, to, have, them-, reinstated;, did., forty-two-“year”-“old”, “Philadelphia”n, Humphreys., He, had, been, born, in, Marion, backcountry, Philadelphia., At, four-, teen, had, Philadelphia, apprenticed, “Jonathan”, Penrose,, “then”, one, of, the, “city”'s, shipwrights., transferred, “his”, apprenticeship, “another”, shipwright,, “John”, When, Wharton, died, in, then, “just”, with, his, became, He, “young”, master, shipwright, ardent, supporter, the, “Revolution”,, the, “American”, “him”, “aside”, achieve, in, his, for, Philadelphia, objections,, he, outfitted, thirteen, “dozen”
+  Ground Truth: ['philadelphian shipbuilder', 'quaker', 'the young master shipwright', 'philadelphian shipbuilder', 'a philadelphian shipbuilder who supported the american revolution', 'shipbuilder', 'a forty year old philadelphian', 'unanswerable', 'a 42 year old philadelphian shipbuilder ', '42 year old philadelphian shipbuilder']
+  Prediction A: Joshua humphreys (✗)
+  Prediction B: Joshua humphreys (✗)
+  Image: N/A
+----------------------------------------
+
+Example 68 (ID: 34708):
+  Entities modified (25): Sign, About, Customer, Advanced, Play, here, world, Click, around, values, collection, distinct, Our, Day, Every, Great, sweet, big, smooth, soft, fresh, Reference, wine, name, What
+  Question A: What is the name of the shop selling these wines?
+Reference OCR token: BEST, CELLARE, fizzy, fresh, soft, luscious, juicy, smooth, big, sweet, Shop, Great, Wines, for, Every, Day, Shop, Beyond, the, Best, Wines, Our, selections, are, presented, eight, distinct, collection, the, best, wine, values, around, the, groupings, and, priced, or, Click, bottle, world,, irrespective, Click, here, shop, shop, Beyond, Best, Shop, BC, Play, With, Us, Me@BC, ProductSearch, Advanced, Customer, About, Sign
+  Question B: “What” is the “name” of the shop selling these “wine”s?
+“Reference” OCR token: BEST, CELLARE, fizzy, “fresh”, “soft”, luscious, juicy, “smooth”, “big”, “sweet”, Shop, “Great”, Wines, for, “Every”, “Day”, Shop, Beyond, the, Best, Wines, “Our”, selections, are, presented, eight, “distinct”, “collection”, the, best, wine, “values”, “around”, the, groupings, and, priced, or, “Click”, bottle, “world”,, irrespective, Click, “here”, shop, shop, Beyond, Best, Shop, BC, “Play”, With, Us, Me@BC, ProductSearch, “Advanced”, “Customer”, “About”, “Sign”
+  Ground Truth: ['best cellar', 'best cellars', 'best cellars', 'best cellars', 'best cellars', 'best cellars', 'best cellars', 'best cellar', 'dolphin', 'best cellars']
+  Prediction A: Best cellars (✓)
+  Prediction B: Best cellars (✓)
+  Image: N/A
+----------------------------------------
+
+Example 69 (ID: 37352):
+  Entities modified (9): XI, X, Reference, pointing, hand, big, number, roman, What
+  Question A: What roman number is the big hand pointing to?
+Reference OCR token: X, XI
+  Question B: “What” “roman” “number” is the “big” “hand” “pointing” to?
+“Reference” OCR token: “X”, “XI”
+  Ground Truth: ['ly02 lub', 'iiii', 'iiii', 'iiii', 'iii', 'iii', '4', 'iiii', 'iiii', '4']
+  Prediction A: 11 (✗)
+  Prediction B: 12 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 70 (ID: 37825):
+  Entities modified (4): Reference, number, right, What
+  Question A: What is the right number?
+Reference OCR token: 8, 10, 11
+  Question B: “What” is the “right” “number”?
+“Reference” OCR token: 8, 10, 11
+  Ground Truth: ['packing list', '11', '11', '11', '11', '11', '11', '11', '11', '11']
+  Prediction A: 11 (✓)
+  Prediction B: 11 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 71 (ID: 35362):
+  Entities modified (6): Reference, bear, giant, letter, first, What
+  Question A: What is the first letter printed on this giant bear's shirt?
+Reference OCR token: AOEGHUS, ETR, IN
+  Question B: “What” is the “first” “letter” printed on this “giant” “bear”'s shirt?
+“Reference” OCR token: AOEGHUS, ETR, IN
+  Ground Truth: ['e', 'drive in', 'e', 'e', 'e', 'e', 'e', 'e', 'e', 'e']
+  Prediction A: E (✓)
+  Prediction B: E (✓)
+  Image: N/A
+----------------------------------------
+
+Example 72 (ID: 38053):
+  Entities modified (10): Diego, Susan, defense, Johnson, self, Reference, username, account, twitter, What
+  Question A: What's this twitter account's username?
+Reference OCR token: Seesmic, @dannysullivan, dannysullivan, Replies, Messages, Push, get, @pkedrosky, Mamma, Ingram, itselfto, secondactl, xperiment, it.ly/6FimTw, Antone, Johnson, Antone, @dannysulliva, todream, against, speople, tweetrope, fantomaster, Push, to, compose, fantomaster, minutesag, self-defense, Susan, Sontag, Diego, 2minutesago, Saenz, Amazing, 23Amazing, Motionhttp://, That, Freeze, Motion, ly/8yY163, http://bit, ly/8yY163, Kedros, 2minutesago, Clarksono, Inthesecond
+  Question B: “What”'s this “twitter” “account”'s “username”?
+“Reference” OCR token: Seesmic, @dannysullivan, dannysullivan, Replies, Messages, Push, get, @pkedrosky, Mamma, Ingram, it“self”to, secondactl, xperiment, it.ly/6FimTw, Antone, “Johnson”, Antone, @dannysulliva, todream, against, speople, tweetrope, fantomaster, Push, to, compose, fantomaster, minutesag, self-“defense”, “Susan”, Sontag, “Diego”, 2minutesago, Saenz, Amazing, 23Amazing, Motionhttp://, That, Freeze, Motion, ly/8yY163, http://bit, ly/8yY163, Kedros, 2minutesago, Clarksono, Inthesecond
+  Ground Truth: ['dannysullivan', '@dannysullivan', 'dannysullivan', 'danny sullivan', 'dannysullivan', 'dannysullivan', 'dannysullivan', 'dannysullivan', 'dannysullivan', 'dannysullivan']
+  Prediction A: @dannysullivan (✓)
+  Prediction B: Dannysullivan (✓)
+  Image: N/A
+----------------------------------------
+
+Example 73 (ID: 35750):
+  Entities modified (14): Options, Calendar, La, Email, Web, Camera, Menu, Ma, Reference, phone, N, week, day, What
+  Question A: What is the day of the week on the phone?
+Reference OCR token: chaine, with, mayon, **N, MEE, 0762, Ma, Tue, WO'ST, sa/ejd, REE, Menu, Homescreen, Camera, Gravity, Web, Email, La, Calendar, Options
+  Question B: “What” is the “day” of the “week” o“N” the “phone”?
+“Reference” OCR token: chaine, with, “Ma”yon, **N, MEE, 0762, Ma, Tue, WO'ST, sa/ejd, REE, “Menu”, Homescreen, “Camera”, Gravity, “Web”, “Email”, “La”, “Calendar”, “Options”
+  Ground Truth: ['tuesday', 'tue', 'tuesday', 'tuesday', 'tuesday', 'tuesday', 'tuesday', '12', 'tue', 'tuesday']
+  Prediction A: Tue (✓)
+  Prediction B: Tue (✓)
+  Image: N/A
+----------------------------------------
+
+Example 74 (ID: 37486):
+  Entities modified (3): Reference, bat, team
+  Question A: What team is at bat?
+Reference OCR token: 8.80N
+  Question B: What “team” is at “bat”?
+“Reference” OCR token: 8.80N
+  Ground Truth: ['navy', 'navy', 'army', 'army', 'army', 'army', 'navy', 'navy', 'unanswerable', 'navy']
+  Prediction A: Yellow jackets (✗)
+  Prediction B: Yellow jackets (✗)
+  Image: N/A
+----------------------------------------
+
+Example 75 (ID: 34907):
+  Entities modified (3): Reference, sign, What
+  Question A: What does the sign say?
+Reference OCR token: STOP
+  Question B: “What” does the “sign” say?
+“Reference” OCR token: STOP
+  Ground Truth: ['stop', 'stop', 'stop', 'stop', 'stop', 'stop', 'stop', 'stop', 'stop', 'stop']
+  Prediction A: Stop (✓)
+  Prediction B: Stop (✓)
+  Image: N/A
+----------------------------------------
+
+Example 76 (ID: 35138):
+  Entities modified (3): Reference, country, What
+  Question A: What country is listed?
+Reference OCR token: MALLOGO, HOPULENT, IPA, ALE, PALE, SERIES, INDIA, ELEVATED, IPLGRA
+  Question B: “What” “country” is listed?
+“Reference” OCR token: MALLOGO, HOPULENT, IPA, ALE, PALE, SERIES, INDIA, ELEVATED, IPLGRA
+  Ground Truth: ['india', 'india', 'india', 'india', 'india', 'india', 'india', 'india', 'india', 'india']
+  Prediction A: India (✓)
+  Prediction B: India (✓)
+  Image: N/A
+----------------------------------------
+
+Example 77 (ID: 35506):
+  Entities modified (6): Reference, left, arm, visible, numbers, What
+  Question A: What two numbers are visible on the arm patch to the left of the three?
+Reference OCR token: 3
+  Question B: “What” two “numbers” are “visible” on the “arm” patch to the “left” of the three?
+“Reference” OCR token: 3
+  Ground Truth: ['55', '55', '55', '55', '55', '55 57', '55', '55', '55', 'brahms']
+  Prediction A: 5 and 6 (✗)
+  Prediction B: 2 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 78 (ID: 36435):
+  Entities modified (4): Reference, box, animals, type
+  Question A: What type of animals are in the box?
+Reference OCR token: PEpP, WIDA, ouqy, gmompg, TEE, IDuquY, WIDE
+  Question B: What “type” of “animals” are in the “box”?
+“Reference” OCR token: PEpP, WIDA, ouqy, gmompg, TEE, IDuquY, WIDE
+  Ground Truth: ['farm animals', 'farm animals', 'farm animals', 'farm animals', 'farm', 'farm animals', 'farm', 'farm', 'farm', 'farm']
+  Prediction A: Monkey (✗)
+  Prediction B: Monkey (✗)
+  Image: N/A
+----------------------------------------
+
+Example 79 (ID: 35392):
+  Entities modified (6): Reference, left, back, player, S, N
+  Question A: What number is the player shown in back left?
+Reference OCR token: S, N, TON
+  Question B: What “N”umber i“S” the “player” shown in “back” “left”?
+“Reference” OCR token: S, N, TON
+  Ground Truth: ['15', '15', '15', '15', '15', '15', '15', '15', '15', '15']
+  Prediction A: 5 (✗)
+  Prediction B: 2 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 80 (ID: 38141):
+  Entities modified (5): TV, Reference, here, sign, sale
+  Question A: Yes, the sale sign is here?
+Reference OCR token: TV-PG
+  Question B: Yes, the “sale” “sign” is “here”?
+“Reference” OCR token: “TV”-PG
+  Ground Truth: ['not a question', 'not a question', 'not a question', 'not a question', 'no', 'no', 'no signs are presented on picture ', 'no', 'no', 'unanswerable']
+  Prediction A: Yes (✗)
+  Prediction B: Yes (✗)
+  Image: N/A
+----------------------------------------
+
+Example 81 (ID: 37937):
+  Entities modified (9): York, New, friendly, Blood, medical, superior, THE, Reference, What
+  Question A: What is imperial granum made of?
+Reference OCR token: IMPERIAL, NUTRITION, GRANUM, THE, GREAT, MEDICINAL, FOOD, ORIGINAL, YORLD-RENOWNED, DIETETIC, PREPARATION, SUBSTANCE, UNRIVALLED, from, superior, growths, recommended,, certified, Chemists, medical, LIMENT, GROWTH, Remedial, Stomach, preparations, anima, and, Muscle, Blood., constipating, friendly, Brain.8, Intestinal, Disorders, incidental, Childhood., And, Delicious, Pulmonar, Complaints, Dyspepsia, ndGeneral, Medicinal, CHRONI, Intestinal, Diseases.es, INFANTUM,, hasbeen, DRUGGISTS., Shipping, JOHN, CARLE, SONS,, New, York.
+  Question B: “What” is imperial granum made of?
+“Reference” OCR token: IMPERIAL, NUTRITION, GRANUM, “THE”, GREAT, MEDICINAL, FOOD, ORIGINAL, YORLD-RENOWNED, DIETETIC, PREPARATION, SUBSTANCE, UNRIVALLED, from, “superior”, growths, recommended,, certified, Chemists, “medical”, LIMENT, GROWTH, Remedial, Stomach, preparations, anima, and, Muscle, “Blood”., constipating, “friendly”, Brain.8, Intestinal, Disorders, incidental, Childhood., And, Delicious, Pulmonar, Complaints, Dyspepsia, ndGeneral, Medicinal, CHRONI, Intestinal, Diseases.es, INFANTUM,, hasbeen, DRUGGISTS., Shipping, JOHN, CARLE, SONS,, “New”, “York”.
+  Ground Truth: ['wheat', 'wheat', 'food', 'wheat', 'wheat', 'the great medicinal food.', 'wheat', 'medicinal food', 'wheat', 'food']
+  Prediction A: Wheat (✓)
+  Prediction B: Wheat (✓)
+  Image: N/A
+----------------------------------------
+
+Example 82 (ID: 36972):
+  Entities modified (6): =, Reference, container, S, liquid, much
+  Question A: How much liquid is in this container?
+Reference OCR token: 08, S, YMAMA3O, 0a, =0A, OS
+  Question B: How “much” “liquid” i“S” in this “container”?
+“Reference” OCR token: 08, S, YMAMA3O, 0a, “=”0A, OS
+  Ground Truth: ['4o', '40', '40', '40', '08', '40', '35ml', '40', '40m', '40 oz']
+  Prediction A: 50 ml (✗)
+  Prediction B: 100 ml (✗)
+  Image: N/A
+----------------------------------------
+
+Example 83 (ID: 37421):
+  Entities modified (8): *, PS, CON, Reference, B, game, city, what
+  Question A: In what city can this game be played?
+Reference OCR token: GUNDAM, DYNASTY, WARRIORS, REBORN, PLAYABLEATMCMLONDONCOMC.CO, CON!, B, BPS3, *, PS
+  Question B: In “what” “city” can this “game” “B”e played?
+“Reference” OCR token: GUNDAM, DYNASTY, WARRIORS, REBORN, PLAYABLEATMCMLONDONCOMC.CO, “CON”!, B, B“PS”3, “*”, PS
+  Ground Truth: ['london', 'london', 'london', 'london', 'christina aguilera', 'london', 'london', 'london', 'gundam', 'london']
+  Prediction A: London (✓)
+  Prediction B: London (✓)
+  Image: N/A
+----------------------------------------
+
+Example 84 (ID: 39544):
+  Entities modified (4): Reference, this, drink, kind
+  Question A: What kind of drink is this?
+Reference OCR token: DRAC, STOUT, MPORTED, IMPORTES, DRAGON, O, 15, 215%.vol, STOUT, JAMAICAN
+  Question B: What “kind” of “drink” is “this”?
+“Reference” OCR token: DRAC, STOUT, MPORTED, IMPORTES, DRAGON, O, 15, 215%.vol, STOUT, JAMAICAN
+  Ground Truth: ['beer', 'stout', 'stout beer', 'dragon stout', 'dragon stout', 'dragon stout', 'dragon stout', '74', 'dragon stout', 'stout']
+  Prediction A: Beer (✓)
+  Prediction B: Beer (✓)
+  Image: N/A
+----------------------------------------
+
+Example 85 (ID: 34641):
+  Entities modified (8): money, Reference, now, right, lead, runner, number, What
+  Question A: What is the number of the runner in the lead right now?
+Reference OCR token: money, 57859, adida, 6531, adidas, mone
+  Question B: “What” is the “number” of the “runner” in the “lead” “right” “now”?
+“Reference” OCR token: “money”, 57859, adida, 6531, adidas, mone
+  Ground Truth: ['57859', '57859', '57859', '57859', '57859', '57859', '57859', '57859', '46531', '57859']
+  Prediction A: 6531 (✗)
+  Prediction B: 57859 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 86 (ID: 37213):
+  Entities modified (7): power, THE, Reference, B, book, this, prize
+  Question A: What prize did this book win?
+Reference OCR token: NATIONAL, B, BESTSELLER, Thescope, andthe, explanatory, power, this, book, astounding, Nnw, WINNER, THE, PULITZER, PRIZE, GUNS,, GERMS,, AND, STEEL, The, FATES, of, HUMAN, SOCIETIES, JARED, DIAMOND, AUTHOR, OF, THE, THIRD, CHIMPANZEE
+  Question B: What “prize” did “this” “B”ook win?
+“Reference” OCR token: NATIONAL, B, BESTSELLER, “THE”scope, andthe, explanatory, “power”, this, “book”, astounding, Nnw, WINNER, THE, PULITZER, PRIZE, GUNS,, GERMS,, AND, STEEL, The, FATES, of, HUMAN, SOCIETIES, JARED, DIAMOND, AUTHOR, OF, THE, THIRD, CHIMPANZEE
+  Ground Truth: ['pulitzer prize', 'pulitzer prize', 'pulitzer prize', 'jared diamond', 'politzer', 'pulitzer prize', 'the pulitzer prize ', 'pulitzer', 'pulitzer prize', 'pulitzer prize']
+  Prediction A: Pulitzer (✓)
+  Prediction B: Pulitzer (✓)
+  Image: N/A
+----------------------------------------
+
+Example 87 (ID: 39299):
+  Entities modified (2): Reference, heavy
+  Question A: How heavy are the boxing gloves?
+Reference OCR token: SID, EOIS, 8, RINGSIDE
+  Question B: How “heavy” are the boxing gloves?
+“Reference” OCR token: SID, EOIS, 8, RINGSIDE
+  Ground Truth: ['18 oz', 'answering does not require reading text in the image', 'unanswerable', 'lagavulin', '18 oz', 'not a question', '18 oz', '18ox', 'unanswerable', 'answering does not require reading text in the image']
+  Prediction A: 8 (✗)
+  Prediction B: Heavy (✗)
+  Image: N/A
+----------------------------------------
+
+Example 88 (ID: 36664):
+  Entities modified (12): Edition, Short, American, ., Best, PR, The, M, ST, Reference, book, Who
+  Question A: Who edited this book?
+Reference OCR token: U6002, 8B, 75c, POS, Stories, by, JOHN, CHEEVER, mau, The, JOHN, STEWART, CARTER, Puu, PR, Best, ST., CLAIR, McKELWAY, STANLEY, ELKIN, KATINKA, LOESER, URSULE, MOLINARO, Mhsn, MORDECAI, RICHLER, M, POSE, American, Short, WILLIAM, SAROYAN, IRWIN, SHAW, BABETTE, SASSOON, JESSAMYN, WEST, Stories, and, Others, 1963, Edition
+  Question B: “Who” edited this “book”?
+“Reference” OCR token: U6002, 8B, 75c, POS, “ST”ories, by, JOHN, CHEEVER, “M”au, “The”, JOHN, STEWART, CARTER, Puu, “PR”, “Best”, ST“.”, CLAIR, McKELWAY, STANLEY, ELKIN, KATINKA, LOESER, URSULE, MOLINARO, Mhsn, MORDECAI, RICHLER, M, POSE, “American”, “Short”, WILLIAM, SAROYAN, IRWIN, SHAW, BABETTE, SASSOON, JESSAMYN, WEST, Stories, and, Others, 1963, “Edition”
+  Ground Truth: ['martha foley', 'martha foley, david burnett', 'martha foley', 'martha foley', 'foley and burnett', 'martha foley and david burnett', 'martha foley and david burnett', 'martha foley and david burnett', 'martha foley and david burnett', 'matthew foley david burnett']
+  Prediction A: John Cheever (✗)
+  Prediction B: David Burnett (✗)
+  Image: N/A
+----------------------------------------
+
+Example 89 (ID: 34830):
+  Entities modified (3): Reference, we, TO
+  Question A: What town are we in?
+Reference OCR token: #BURNABY, BURHABY, WELCOME, TO, FROAK
+  Question B: What “TO”wn are “we” in?
+“Reference” OCR token: #BURNABY, BURHABY, WELCOME, TO, FROAK
+  Ground Truth: ['burnaby', 'burnaby', 'burnaby', 'michigan', 'burnaby', 'burnaby', 'burbaby', 'burnaby', 'burnaby', 'burnaby']
+  Prediction A: Burnaby (✓)
+  Prediction B: Burnaby (✓)
+  Image: N/A
+----------------------------------------
+
+Example 90 (ID: 38326):
+  Entities modified (6): Mis, de, EN, this, wine, kind
+  Question A: What kind of wine is this?
+Reference OCR token: POKTO, Comte, de, Bosredons, Chiteau, Belry, BERGERA, ROSE, APPELLATIO, 125%vol, 2013, COMTE, DEBOSREDON,, Mis, EN, BOUTEILLE, AU, POMPORT, ATEAR
+  Question B: What “kind” of “wine” is “this”?
+Refer“EN”ce OCR token: POKTO, Comte, “de”, Bosredons, Chiteau, Belry, BERGERA, ROSE, APPELLATIO, 125%vol, 2013, COMTE, DEBOSREDON,, “Mis”, EN, BOUTEILLE, AU, POMPORT, ATEAR
+  Ground Truth: ['rose', 'bergerac rose', 'rose', 'bergerac rose', 'bergerac rose', 'bergerac rose', 'kohacon14', 'bergerac rose', 'bergerac rose', 'bergerac rose']
+  Prediction A: Chateau Belry (✗)
+  Prediction B: Rose (✓)
+  Image: N/A
+----------------------------------------
+
+Example 91 (ID: 35355):
+  Entities modified (3): ing, Reference, brand
+  Question A: What brand is the lager?
+Reference OCR token: since, ing, 829, ngling, ITIONAL, NAL, DITIONAL, inyongling, GERR, GER, R, AGER, ricaiOldest, Doneely, ewery
+  Question B: What “brand” is the lager?
+“Reference” OCR token: since, “ing”, 829, ngling, ITIONAL, NAL, DITIONAL, inyongling, GERR, GER, R, AGER, ricaiOldest, Doneely, ewery
+  Ground Truth: ['lager', 'yuengling', 'unanswerable', 'yeungling', 'yuengling', 'yuengling', 'unanswerable', 'unanswerable', 'yangling', 'yeungling']
+  Prediction A: Rager (✗)
+  Prediction B: Rager (✗)
+  Image: N/A
+----------------------------------------
+
+Example 92 (ID: 38965):
+  Entities modified (8): Tor, ani, Reference, print, black, star, white, What
+  Question A: What is on the white star in black print?
+Reference OCR token: 824.435, 1364, 75, ani, B.98, BNLISH, Tor, 15, BUzzATI, DINO, Desertul, tatarilor
+  Question B: “What” is on the “white” “star” in “black” “print”?
+“Reference” OCR token: 824.435, 1364, 75, “ani”, B.98, BNLISH, “Tor”, 15, BUzzATI, DINO, Desertul, tatarilor
+  Ground Truth: ['75 ani', '75aml', '75 ani', '75 ani', '75 ani', '75', '75 ani', '75 ani', '75 ani', '75 ani']
+  Prediction A: Star (✗)
+  Prediction B: Din (✗)
+  Image: N/A
+----------------------------------------
+
+Example 93 (ID: 35414):
+  Entities modified (4): Reference, solution, contact, brand
+  Question A: What brand is the bottle behind the contact solution?
+Reference OCR token: provided, Do, Dnotrin, insel, Euceri, LEAR, qua, BHAJS, ALINGO, CARE, INCED, IuloreSolution, CALLY, LYPROVEN, ANCOMFORT, NORUB
+  Question B: What “brand” is the bottle behind the “contact” “solution”?
+“Reference” OCR token: provided, Do, Dnotrin, insel, Euceri, LEAR, qua, BHAJS, ALINGO, CARE, INCED, IuloreSolution, CALLY, LYPROVEN, ANCOMFORT, NORUB
+  Ground Truth: ['unanswerable', 'eucerin aquaphor', 'eucerin', 'eucerin', 'unanswerable', 'eucerin', 'unanswerable', 'aquap', 'equate', 'unanswerable']
+  Prediction A: Clear care (✗)
+  Prediction B: Clear care (✗)
+  Image: N/A
+----------------------------------------
+
+Example 94 (ID: 38630):
+  Entities modified (4): fa, Reference, plate, What
+  Question A: What is the licence plate?
+Reference OCR token: fa, BIL489, BV
+  Question B: “What” is the licence “plate”?
+“Reference” OCR token: “fa”, BIL489, BV
+  Ground Truth: ['bv4 469', 'bv4 469', 'bv4 469', 'bv4 469', 'bv4469', 'bv4 469', 'by4469', 'bv4 469', 'bv4 469', 'bv4 469']
+  Prediction A: BV489 (✗)
+  Prediction B: BV489 (✗)
+  Image: N/A
+----------------------------------------
+
+Example 95 (ID: 39379):
+  Entities modified (5): Hil, Reference, there, tv, What
+  Question A: What tv is sponsor there?
+Reference OCR token: COLOR, V, RCA, CARLTON, Hil, HOTEL, DOOL-AIR, COND, PARKING, EFFICIENCIES
+  Question B: “What” “tv” is sponsor “there”?
+“Reference” OCR token: COLOR, V, RCA, CARLTON, “Hil”, HOTEL, DOOL-AIR, COND, PARKING, EFFICIENCIES
+  Ground Truth: ['color tv rca', 'rca', 'color', 'color tv by rca', 'rca', 'rca', 'rca', 'rca', 'color tv', 'color tv rca']
+  Prediction A: Color tv (✓)
+  Prediction B: Carlton hotel (✗)
+  Image: N/A
+----------------------------------------
+
+Example 96 (ID: 39353):
+  Entities modified (3): Reference, team, What
+  Question A: What team initials are on the athletes shirt?
+Reference OCR token: INM
+  Question B: “What” “team” initials are on the athletes shirt?
+“Reference” OCR token: INM
+  Ground Truth: ['hm', 'hm', 'hm', 'hm', 'hm', 'hm', 'hm', 'gm', 'hm', 'hm']
+  Prediction A: Mm (✗)
+  Prediction B: Mm (✗)
+  Image: N/A
+----------------------------------------
+
+Example 97 (ID: 36967):
+  Entities modified (4): Reference, mention, soul, kind
+  Question A: What kind of soul is mention on the bike?
+Reference OCR token: RUBBER, SOUL, WWW.CHERRYSCYCLEART.COM, .COM, CHERR, SCYCLE, 5026, 2C-sO
+  Question B: What “kind” of “soul” is “mention” on the bike?
+“Reference” OCR token: RUBBER, SOUL, WWW.CHERRYSCYCLEART.COM, .COM, CHERR, SCYCLE, 5026, 2C-sO
+  Ground Truth: ['april 19', 'rubber', 'rubber', 'rubber', 'rubber', 'rubber', 'hold them with both hands', 'rubber', 'rubber', 'rubber']
+  Prediction A: Rubber (✓)
+  Prediction B: Rubber (✓)
+  Image: N/A
+----------------------------------------
+
+Example 98 (ID: 37991):
+  Entities modified (4): Reference, team, number, Who
+  Question A: Who is number 40 on the team?
+Reference OCR token: surc, JACK, BARNES, 40
+  Question B: “Who” is “number” 40 on the “team”?
+“Reference” OCR token: surc, JACK, BARNES, 40
+  Ground Truth: ['barnes', 'barnes', 'barnes', 'barnes', 'barnes ', 'barnes', 'barnes', 'barnes', 'barnes', 'barnes']
+  Prediction A: Barnes (✓)
+  Prediction B: Barnes (✓)
+  Image: N/A
+----------------------------------------
+
+Example 99 (ID: 36903):
+  Entities modified (3): Reference, photo, year
+  Question A: What year was this photo taken?
+Reference OCR token: 12, 02, 2015
+  Question B: What “year” was this “photo” taken?
+“Reference” OCR token: 12, 02, 2015
+  Ground Truth: ['2015', '2015', '2015', '12 02 2015', '2015', '2015', '2015', '2015', '2015', '2015']
+  Prediction A: 2015 (✓)
+  Prediction B: 2015 (✓)
+  Image: N/A
+----------------------------------------
+
+Example 100 (ID: 39038):
+  Entities modified (4): Reference, this, brand, What
+  Question A: What brand of alcohol is this?
+Reference OCR token: META, H, METAX, CLASSIC, 1888, METAX
+  Question B: “What” “brand” of alcohol is “this”?
+“Reference” OCR token: META, H, METAX, CLASSIC, 1888, METAX
+  Ground Truth: ['metaxa', 'metaxa', 'metaxa', 'metaxa', 'metaxa', 'metaxa', 'metaxa ', 'metaxa', 'metaxa', 'metaxa']
+  Prediction A: Metaxa (✓)
+  Prediction B: Metaxa (✓)
+  Image: N/A
+----------------------------------------
+

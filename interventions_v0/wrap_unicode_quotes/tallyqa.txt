@@ -1,0 +1,1005 @@
+Intervention: wrap_unicode_quotes
+Dataset: tallyqa
+Total examples: 100
+================================================================================
+
+Example 1 (ID: 30108301):
+  Entities modified (1): many
+  Question A: How many planes?
+  Question B: How “many” planes?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 2 (ID: 30109390):
+  Entities modified (2): there, many
+  Question A: How many planes are there?
+  Question B: How “many” planes are “there”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 3 (ID: 30106576):
+  Entities modified (4): there, lights, traffic, many
+  Question A: How many traffic lights are there?
+  Question B: How “many” “traffic” “lights” are “there”?
+  Ground Truth: 6
+  Prediction A: A (✗)
+  Prediction B: A (✗)
+  Image: N/A
+----------------------------------------
+
+Example 4 (ID: 9236562517199):
+  Entities modified (2): water, many
+  Question A: How many zebras are drinking water?
+  Question B: How “many” zebras are drinking “water”?
+  Ground Truth: 0
+  Prediction A: A (✓)
+  Prediction B: C (✗)
+  Image: N/A
+----------------------------------------
+
+Example 5 (ID: 9233812910677):
+  Entities modified (2): train, many
+  Question A: How many cows are on the train?
+  Question B: How “many” cows are on the “train”?
+  Ground Truth: 0
+  Prediction A: B (✗)
+  Prediction B: B (✗)
+  Image: N/A
+----------------------------------------
+
+Example 6 (ID: 9235176818273):
+  Entities modified (1): many
+  Question A: How many elephants are wearing hats?
+  Question B: How “many” elephants are wearing hats?
+  Ground Truth: 0
+  Prediction A: A (✓)
+  Prediction B: A (✓)
+  Image: N/A
+----------------------------------------
+
+Example 7 (ID: 30145308):
+  Entities modified (2): picture, many
+  Question A: How many umbrellas are in the picture?
+  Question B: How “many” umbrellas are in the “picture”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 8 (ID: 30164351):
+  Entities modified (2): signs, many
+  Question A: How many signs are pictured?
+  Question B: How “many” “signs” are pictured?
+  Ground Truth: 3
+  Prediction A: B (✗)
+  Prediction B: B (✗)
+  Image: N/A
+----------------------------------------
+
+Example 9 (ID: 9240175721270):
+  Entities modified (2): table, many
+  Question A: How many lamps are not on the table?
+  Question B: How “many” lamps are not on the “table”?
+  Ground Truth: 1
+  Prediction A: C (✗)
+  Prediction B: C (✗)
+  Image: N/A
+----------------------------------------
+
+Example 10 (ID: 9238218013257):
+  Entities modified (3): arm, woman, many
+  Question A: How many of the bears limbs are under the woman's arm?
+  Question B: How “many” of the bears limbs are under the “woman”'s “arm”?
+  Ground Truth: 3
+  Prediction A: C (✗)
+  Prediction B: C (✗)
+  Image: N/A
+----------------------------------------
+
+Example 11 (ID: 30108724):
+  Entities modified (2): visible, many
+  Question A: How many bridges are visible?
+  Question B: How “many” bridges are “visible”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 12 (ID: 9159266720849):
+  Entities modified (4): open, image, windows, many
+  Question A: How many windows in the image are open?
+  Question B: How “many” “windows” in the “image” are “open”?
+  Ground Truth: 1
+  Prediction A: A (✗)
+  Prediction B: A (✗)
+  Image: N/A
+----------------------------------------
+
+Example 13 (ID: 9232136311446):
+  Entities modified (2): water, many
+  Question A: How many bears are in the water?
+  Question B: How “many” bears are in the “water”?
+  Ground Truth: 1
+  Prediction A: D (✗)
+  Prediction B: D (✗)
+  Image: N/A
+----------------------------------------
+
+Example 14 (ID: 9236514916536):
+  Entities modified (4): there, cars, white, many
+  Question A: How many white cars are there?
+  Question B: How “many” “white” “cars” are “there”?
+  Ground Truth: 4
+  Prediction A: B (✗)
+  Prediction B: B (✗)
+  Image: N/A
+----------------------------------------
+
+Example 15 (ID: 923693305192):
+  Entities modified (2): there, many
+  Question A: How many pink umbrellas are there?
+  Question B: How “many” pink umbrellas are “there”?
+  Ground Truth: 1
+  Prediction A: C (✗)
+  Prediction B: C (✗)
+  Image: N/A
+----------------------------------------
+
+Example 16 (ID: 9231662010372):
+  Entities modified (4): picture, buildings, tall, many
+  Question A: How many tall buildings are in the picture?
+  Question B: How “many” “tall” “buildings” are in the “picture”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 17 (ID: 30103912):
+  Entities modified (4): there, lights, traffic, many
+  Question A: How many traffic lights are there?
+  Question B: How “many” “traffic” “lights” are “there”?
+  Ground Truth: 2
+  Prediction A: C (✓)
+  Prediction B: B (✗)
+  Image: N/A
+----------------------------------------
+
+Example 18 (ID: 923658129664):
+  Entities modified (3): yellow, people, many
+  Question A: How many people have yellow shirts?
+  Question B: How “many” “people” have “yellow” shirts?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 19 (ID: 30116329):
+  Entities modified (1): many
+  Question A: How many surfers are pictured?
+  Question B: How “many” surfers are pictured?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 20 (ID: 30096750):
+  Entities modified (2): cat, many
+  Question A: How many paws does the cat have on the beer bottle?
+  Question B: How “many” paws does the “cat” have on the beer bottle?
+  Ground Truth: 2
+  Prediction A: C (✓)
+  Prediction B: C (✓)
+  Image: N/A
+----------------------------------------
+
+Example 21 (ID: 92335447258):
+  Entities modified (5): hair, their, image, people, many
+  Question A: How many of the people in the image have pony tails in their hair?
+  Question B: How “many” of the “people” in the “image” have pony tails in “their” “hair”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 22 (ID: 9241677211583):
+  Entities modified (2): image, many
+  Question A: How many planes are flying in the image?
+  Question B: How “many” planes are flying in the “image”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 23 (ID: 30119490):
+  Entities modified (2): scene, many
+  Question A: How many floors are in the scene?
+  Question B: How “many” floors are in the “scene”?
+  Ground Truth: 2
+  Prediction A: D (✗)
+  Prediction B: D (✗)
+  Image: N/A
+----------------------------------------
+
+Example 24 (ID: 30148282):
+  Entities modified (1): many
+  Question A: How many buses are seen?
+  Question B: How “many” buses are seen?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 25 (ID: 923566103041):
+  Entities modified (3): image, objects, many
+  Question A: How many objects are displayed within the shown image?
+  Question B: How “many” “objects” are displayed within the shown “image”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 26 (ID: 30103854):
+  Entities modified (2): room, many
+  Question A: How many mirrors are in the room?
+  Question B: How “many” mirrors are in the “room”?
+  Ground Truth: 3
+  Prediction A: C (✗)
+  Prediction B: C (✗)
+  Image: N/A
+----------------------------------------
+
+Example 27 (ID: 9235779218059):
+  Entities modified (3): there, white, many
+  Question A: How many white cows are there?
+  Question B: How “many” “white” cows are “there”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 28 (ID: 9236740415375):
+  Entities modified (3): there, white, many
+  Question A: How many white chickens are there?
+  Question B: How “many” “white” chickens are “there”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 29 (ID: 30101007):
+  Entities modified (1): many
+  Question A: How many mammals are pictured?
+  Question B: How “many” mammals are pictured?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 30 (ID: 30099700):
+  Entities modified (2): there, many
+  Question A: How many buses are there?
+  Question B: How “many” buses are “there”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 31 (ID: 923280864109):
+  Entities modified (4): middle, highest, objects, many
+  Question A: How many objects are on the highest middle shelf?
+  Question B: How “many” “objects” are on the “highest” “middle” shelf?
+  Ground Truth: 3
+  Prediction A: D (✓)
+  Prediction B: D (✓)
+  Image: N/A
+----------------------------------------
+
+Example 32 (ID: 30103326):
+  Entities modified (1): many
+  Question A: How many kids are pictured?
+  Question B: How “many” kids are pictured?
+  Ground Truth: 2
+  Prediction A: C (✓)
+  Prediction B: C (✓)
+  Image: N/A
+----------------------------------------
+
+Example 33 (ID: 923895086377):
+  Entities modified (4): there, cars, blue, many
+  Question A: How many blue cars are there?
+  Question B: How “many” “blue” “cars” are “there”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 34 (ID: 30122030):
+  Entities modified (1): many
+  Question A: How many coaches are shown?
+  Question B: How “many” coaches are shown?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 35 (ID: 30165910):
+  Entities modified (2): visible, many
+  Question A: How many bears are visible?
+  Question B: How “many” bears are “visible”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 36 (ID: 30166937):
+  Entities modified (3): here, people, many
+  Question A: How many people are pictured here?
+  Question B: How “many” “people” are pictured “here”?
+  Ground Truth: 0
+  Prediction A: A (✓)
+  Prediction B: A (✓)
+  Image: N/A
+----------------------------------------
+
+Example 37 (ID: 30097093):
+  Entities modified (2): there, many
+  Question A: How many statues are there?
+  Question B: How “many” statues are “there”?
+  Ground Truth: 2
+  Prediction A: D (✗)
+  Prediction B: D (✗)
+  Image: N/A
+----------------------------------------
+
+Example 38 (ID: 923945301164):
+  Entities modified (1): many
+  Question A: How many kids are wearing hats?
+  Question B: How “many” kids are wearing hats?
+  Ground Truth: 3
+  Prediction A: B (✗)
+  Prediction B: B (✗)
+  Image: N/A
+----------------------------------------
+
+Example 39 (ID: 9234131514485):
+  Entities modified (3): water, people, many
+  Question A: How many people are drinking water?
+  Question B: How “many” “people” are drinking “water”?
+  Ground Truth: 0
+  Prediction A: C (✗)
+  Prediction B: C (✗)
+  Image: N/A
+----------------------------------------
+
+Example 40 (ID: 30122746):
+  Entities modified (2): there, many
+  Question A: How many cops are there?
+  Question B: How “many” cops are “there”?
+  Ground Truth: 1
+  Prediction A: D (✗)
+  Prediction B: D (✗)
+  Image: N/A
+----------------------------------------
+
+Example 41 (ID: 30137269):
+  Entities modified (3): picture, animals, many
+  Question A: How many animals are in this picture?
+  Question B: How “many” “animals” are in this “picture”?
+  Ground Truth: 2
+  Prediction A: B (✗)
+  Prediction B: B (✗)
+  Image: N/A
+----------------------------------------
+
+Example 42 (ID: 30153314):
+  Entities modified (3): there, balls, many
+  Question A: How many balls are there?
+  Question B: How “many” “balls” are “there”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 43 (ID: 30151705):
+  Entities modified (2): there, many
+  Question A: How many elephants are there?
+  Question B: How “many” elephants are “there”?
+  Ground Truth: 2
+  Prediction A: C (✓)
+  Prediction B: C (✓)
+  Image: N/A
+----------------------------------------
+
+Example 44 (ID: 923803052491):
+  Entities modified (3): picture, yellow, many
+  Question A: How many yellow buses are in the picture?
+  Question B: How “many” “yellow” buses are in the “picture”?
+  Ground Truth: 0
+  Prediction A: B (✗)
+  Prediction B: B (✗)
+  Image: N/A
+----------------------------------------
+
+Example 45 (ID: 30122247):
+  Entities modified (3): picture, people, many
+  Question A: How many people in the picture?
+  Question B: How “many” “people” in the “picture”?
+  Ground Truth: 0
+  Prediction A: A (✓)
+  Prediction B: A (✓)
+  Image: N/A
+----------------------------------------
+
+Example 46 (ID: 30121718):
+  Entities modified (3): photo, hands, many
+  Question A: How many hands are in the photo?
+  Question B: How “many” “hands” are in the “photo”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 47 (ID: 30157532):
+  Entities modified (2): photo, many
+  Question A: How many busses in photo?
+  Question B: How “many” busses in “photo”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 48 (ID: 30136879):
+  Entities modified (3): picture, animals, many
+  Question A: How many animals are in the picture?
+  Question B: How “many” “animals” are in the “picture”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 49 (ID: 30123586):
+  Entities modified (3): there, trains, many
+  Question A: How many trains are there?
+  Question B: How “many” “trains” are “there”?
+  Ground Truth: 2
+  Prediction A: B (✗)
+  Prediction B: C (✓)
+  Image: N/A
+----------------------------------------
+
+Example 50 (ID: 30103679):
+  Entities modified (2): there, many
+  Question A: How many snowboards are there?
+  Question B: How “many” snowboards are “there”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 51 (ID: 30131988):
+  Entities modified (3): picture, horses, many
+  Question A: How many horses are in the picture?
+  Question B: How “many” “horses” are in the “picture”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 52 (ID: 30118396):
+  Entities modified (3): there, men, many
+  Question A: How many men are there?
+  Question B: How “many” “men” are “there”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 53 (ID: 30094639):
+  Entities modified (3): there, women, many
+  Question A: How many women are there?
+  Question B: How “many” “women” are “there”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 54 (ID: 30135165):
+  Entities modified (1): many
+  Question A: How many toilets are in the bathroom?
+  Question B: How “many” toilets are in the bathroom?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: C (✗)
+  Image: N/A
+----------------------------------------
+
+Example 55 (ID: 923751793431):
+  Entities modified (2): right, many
+  Question A: How many cows are facing to the right?
+  Question B: How “many” cows are facing to the “right”?
+  Ground Truth: 3
+  Prediction A: D (✓)
+  Prediction B: D (✓)
+  Image: N/A
+----------------------------------------
+
+Example 56 (ID: 30094489):
+  Entities modified (2): there, many
+  Question A: How many lemon wedges are there?
+  Question B: How “many” lemon wedges are “there”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 57 (ID: 30146649):
+  Entities modified (2): boats, many
+  Question A: How many boats?
+  Question B: How “many” “boats”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 58 (ID: 9235397816532):
+  Entities modified (3): clock, lights, many
+  Question A: How many lights are behind the clock?
+  Question B: How “many” “lights” are behind the “clock”?
+  Ground Truth: 2
+  Prediction A: A (✗)
+  Prediction B: A (✗)
+  Image: N/A
+----------------------------------------
+
+Example 59 (ID: 9234412211567):
+  Entities modified (6): ears, their, tags, yellow, sheep, many
+  Question A: How many sheep have yellow tags in their ears?
+  Question B: How “many” “sheep” have “yellow” “tags” in “their” “ears”?
+  Ground Truth: 3
+  Prediction A: A (✗)
+  Prediction B: B (✗)
+  Image: N/A
+----------------------------------------
+
+Example 60 (ID: 30105872):
+  Entities modified (3): here, people, many
+  Question A: How many people are pictured here?
+  Question B: How “many” “people” are pictured “here”?
+  Ground Truth: 0
+  Prediction A: A (✓)
+  Prediction B: A (✓)
+  Image: N/A
+----------------------------------------
+
+Example 61 (ID: 9241420020743):
+  Entities modified (6): image, control, remote, buttons, orange, many
+  Question A: How many orange buttons are on the remote control in the image?
+  Question B: How “many” “orange” “buttons” are on the “remote” “control” in the “image”?
+  Ground Truth: 1
+  Prediction A: A (✗)
+  Prediction B: A (✗)
+  Image: N/A
+----------------------------------------
+
+Example 62 (ID: 30107269):
+  Entities modified (2): there, many
+  Question A: How many pizzas are there?
+  Question B: How “many” pizzas are “there”?
+  Ground Truth: 2
+  Prediction A: C (✓)
+  Prediction B: C (✓)
+  Image: N/A
+----------------------------------------
+
+Example 63 (ID: 9238118416428):
+  Entities modified (4): picture, lights, green, many
+  Question A: How many green lights are in the picture?
+  Question B: How “many” “green” “lights” are in the “picture”?
+  Ground Truth: 1
+  Prediction A: C (✗)
+  Prediction B: C (✗)
+  Image: N/A
+----------------------------------------
+
+Example 64 (ID: 923624373029):
+  Entities modified (3): white, color, many
+  Question A: How many banners are color white?
+  Question B: How “many” banners are “color” “white”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 65 (ID: 30124522):
+  Entities modified (3): scene, animals, many
+  Question A: How many animals are in the scene?
+  Question B: How “many” “animals” are in the “scene”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 66 (ID: 9234451314575):
+  Entities modified (3): white, people, many
+  Question A: How many people are wearing white shirts?
+  Question B: How “many” “people” are wearing “white” shirts?
+  Ground Truth: 3
+  Prediction A: B (✗)
+  Prediction B: D (✓)
+  Image: N/A
+----------------------------------------
+
+Example 67 (ID: 30151269):
+  Entities modified (1): many
+  Question A: How many umbrellas?
+  Question B: How “many” umbrellas?
+  Ground Truth: 2
+  Prediction A: C (✓)
+  Prediction B: C (✓)
+  Image: N/A
+----------------------------------------
+
+Example 68 (ID: 30139543):
+  Entities modified (3): faces, clock, many
+  Question A: How many clock faces are shown?
+  Question B: How “many” “clock” “faces” are shown?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 69 (ID: 30103367):
+  Entities modified (2): photo, many
+  Question A: How many cats are in the photo?
+  Question B: How “many” cats are in the “photo”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 70 (ID: 9236357517061):
+  Entities modified (3): you, men, many
+  Question A: How many men do you see standing between motorcycles?
+  Question B: How “many” “men” do “you” see standing between motorcycles?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 71 (ID: 30162796):
+  Entities modified (2): photo, many
+  Question A: How many buses are in the photo?
+  Question B: How “many” buses are in the “photo”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 72 (ID: 9240449316462):
+  Entities modified (2): posts, many
+  Question A: How many posts are supporting the crosswalk?
+  Question B: How “many” “posts” are supporting the crosswalk?
+  Ground Truth: 1
+  Prediction A: A (✗)
+  Prediction B: A (✗)
+  Image: N/A
+----------------------------------------
+
+Example 73 (ID: 30162698):
+  Entities modified (3): there, people, many
+  Question A: How many people are there?
+  Question B: How “many” “people” are “there”?
+  Ground Truth: 3
+  Prediction A: D (✓)
+  Prediction B: D (✓)
+  Image: N/A
+----------------------------------------
+
+Example 74 (ID: 30141741):
+  Entities modified (2): picture, many
+  Question A: How many pizzas are in the picture?
+  Question B: How “many” pizzas are in the “picture”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 75 (ID: 923556859420):
+  Entities modified (3): blue, pieces, many
+  Question A: How many pieces of luggage are blue?
+  Question B: How “many” “pieces” of luggage are “blue”?
+  Ground Truth: 2
+  Prediction A: B (✗)
+  Prediction B: A (✗)
+  Image: N/A
+----------------------------------------
+
+Example 76 (ID: 9237466313072):
+  Entities modified (2): people, many
+  Question A: How many of the people are shirtless?
+  Question B: How “many” of the “people” are shirtless?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 77 (ID: 30143398):
+  Entities modified (3): boat, people, many
+  Question A: How many people are in the boat?
+  Question B: How “many” “people” are in the “boat”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 78 (ID: 30114027):
+  Entities modified (2): boats, many
+  Question A: How many boats?
+  Question B: How “many” “boats”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 79 (ID: 30147430):
+  Entities modified (3): there, trains, many
+  Question A: How many trains are there?
+  Question B: How “many” “trains” are “there”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 80 (ID: 30165839):
+  Entities modified (3): there, boats, many
+  Question A: How many boats are there?
+  Question B: How “many” “boats” are “there”?
+  Ground Truth: 1
+  Prediction A: C (✗)
+  Prediction B: C (✗)
+  Image: N/A
+----------------------------------------
+
+Example 81 (ID: 9231767716309):
+  Entities modified (1): many
+  Question A: How many tiers does the wedding cake have?
+  Question B: How “many” tiers does the wedding cake have?
+  Ground Truth: 3
+  Prediction A: B (✗)
+  Prediction B: B (✗)
+  Image: N/A
+----------------------------------------
+
+Example 82 (ID: 30127455):
+  Entities modified (3): visible, papers, many
+  Question A: How many papers are visible?
+  Question B: How “many” “papers” are “visible”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 83 (ID: 9236033018367):
+  Entities modified (4): grass, there, horses, many
+  Question A: How many horses are there and not eating grass?
+  Question B: How “many” “horses” are “there” and not eating “grass”?
+  Ground Truth: 2
+  Prediction A: A (✗)
+  Prediction B: D (✗)
+  Image: N/A
+----------------------------------------
+
+Example 84 (ID: 30109934):
+  Entities modified (3): picture, people, many
+  Question A: How many people are in the picture?
+  Question B: How “many” “people” are in the “picture”?
+  Ground Truth: 2
+  Prediction A: A (✗)
+  Prediction B: A (✗)
+  Image: N/A
+----------------------------------------
+
+Example 85 (ID: 30120696):
+  Entities modified (3): picture, people, many
+  Question A: How many people are in the picture?
+  Question B: How “many” “people” are in the “picture”?
+  Ground Truth: 0
+  Prediction A: A (✓)
+  Prediction B: A (✓)
+  Image: N/A
+----------------------------------------
+
+Example 86 (ID: 9238458710589):
+  Entities modified (1): many
+  Question A: How many lamps are turn on in the chapelle?
+  Question B: How “many” lamps are turn on in the chapelle?
+  Ground Truth: 2
+  Prediction A: A (✗)
+  Prediction B: B (✗)
+  Image: N/A
+----------------------------------------
+
+Example 87 (ID: 30135679):
+  Entities modified (3): horse, people, many
+  Question A: How many people are on the horse?
+  Question B: How “many” “people” are on the “horse”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 88 (ID: 923569577904):
+  Entities modified (3): image, present, many
+  Question A: How many laptops are present in the image?
+  Question B: How “many” laptops are “present” in the “image”?
+  Ground Truth: 2
+  Prediction A: B (✗)
+  Prediction B: B (✗)
+  Image: N/A
+----------------------------------------
+
+Example 89 (ID: 30156265):
+  Entities modified (3): there, fans, many
+  Question A: How many ceiling fans are there?
+  Question B: How “many” ceiling “fans” are “there”?
+  Ground Truth: 3
+  Prediction A: D (✓)
+  Prediction B: D (✓)
+  Image: N/A
+----------------------------------------
+
+Example 90 (ID: 9231588411782):
+  Entities modified (4): beach, food, people, many
+  Question A: How many people are eating food at the beach?
+  Question B: How “many” “people” are eating “food” at the “beach”?
+  Ground Truth: 0
+  Prediction A: A (✓)
+  Prediction B: A (✓)
+  Image: N/A
+----------------------------------------
+
+Example 91 (ID: 30151340):
+  Entities modified (1): many
+  Question A: How many giraffes?
+  Question B: How “many” giraffes?
+  Ground Truth: 4
+  Prediction A: D (✗)
+  Prediction B: D (✗)
+  Image: N/A
+----------------------------------------
+
+Example 92 (ID: 9235612218284):
+  Entities modified (5): post, lights, signal, traffic, many
+  Question A: How many of the traffic signal lights are supported by a post?
+  Question B: How “many” of the “traffic” “signal” “lights” are supported by a “post”?
+  Ground Truth: 0
+  Prediction A: B (✗)
+  Prediction B: B (✗)
+  Image: N/A
+----------------------------------------
+
+Example 93 (ID: 30159501):
+  Entities modified (2): there, many
+  Question A: How many pots are there?
+  Question B: How “many” pots are “there”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 94 (ID: 900039171104):
+  Entities modified (4): them, green, walls, many
+  Question A: How many walls have green ivy on them?
+  Question B: How “many” “walls” have “green” ivy on “them”?
+  Ground Truth: 1
+  Prediction A: C (✗)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 95 (ID: 9234171219577):
+  Entities modified (4): beach, football, people, many
+  Question A: How many people are playing football at the beach?
+  Question B: How “many” “people” are playing “football” at the “beach”?
+  Ground Truth: 0
+  Prediction A: B (✗)
+  Prediction B: A (✓)
+  Image: N/A
+----------------------------------------
+
+Example 96 (ID: 923695018098):
+  Entities modified (3): tan, signs, many
+  Question A: How many picket signs are tan cardboard?
+  Question B: How “many” picket “signs” are “tan” cardboard?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 97 (ID: 30124769):
+  Entities modified (3): there, boats, many
+  Question A: How many boats are there?
+  Question B: How “many” “boats” are “there”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 98 (ID: 30147706):
+  Entities modified (2): there, many
+  Question A: How many vases are there?
+  Question B: How “many” vases are “there”?
+  Ground Truth: 1
+  Prediction A: B (✓)
+  Prediction B: B (✓)
+  Image: N/A
+----------------------------------------
+
+Example 99 (ID: 923683991078):
+  Entities modified (4): tower, visible, clock, many
+  Question A: How many clocks are visible on the clock tower?
+  Question B: How “many” “clock”s are “visible” on the clock “tower”?
+  Ground Truth: 2
+  Prediction A: C (✓)
+  Prediction B: B (✗)
+  Image: N/A
+----------------------------------------
+
+Example 100 (ID: 9232681614724):
+  Entities modified (5): hat, hard, yellow, workers, many
+  Question A: How many workers are wearing a yellow hard hat?
+  Question B: How “many” “workers” are wearing a “yellow” “hard” “hat”?
+  Ground Truth: 1
+  Prediction A: C (✗)
+  Prediction B: D (✗)
+  Image: N/A
+----------------------------------------
+
